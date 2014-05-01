@@ -1,0 +1,43 @@
+d_lodbroks = {
+
+	color={ 60 60 60 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = norseholygfx
+	
+	capital = 1360
+
+	title = "WARCHIEF"
+	foa = "WARCHIEF_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = norse_pagan_reformed
+	
+	culture = Indo-Norse
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 2 # (Must be an integer between 1 and 512)
+
+	mercenary_type = lodbroks_composition
+}
+
+e_norse_india = {                      # Titular, created by special decision only if entire India is united by the Norse or Indo-Norse
+	color = { 141 133 133 }
+
+	title = "High Emperor"
+	title_female = "High Empress"
+
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+	allow = {
+		always = no # Only created through special decision
+	}
+}

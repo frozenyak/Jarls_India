@@ -1,0 +1,1057 @@
+###################################
+#
+# Norse India Events
+#
+###################################
+namespace = norse_sacking
+
+### Norse sack Indian cities ###
+# Norse sack krishnajanmabhoomi
+narrative_event = {
+	id = norse_sacking.00
+	title = "EVTNAME_norse_sacking.00"
+	desc = "EVTDESC_norse_sacking.00"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_krishnajanmabhoomi }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_krishnajanmabhoomi }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_krishnajanmabhoomi
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.1 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.00"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60100"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack dwarakadheesh
+narrative_event = {
+	id = norse_sacking.01
+	title = "EVTNAME_norse_sacking.01"
+	desc = "EVTDESC_norse_sacking.01"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_dwarakadheesh }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_dwarakadheesh }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_dwarakadheesh
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.01"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60101"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack mahakaleshwar
+narrative_event = {
+	id = norse_sacking.02
+	title = "EVTNAME_norse_sacking.02"
+	desc = "EVTDESC_norse_sacking.02"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_mahakaleshwar }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_mahakaleshwar }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_mahakaleshwar
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.3 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.02"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60102"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack ram_janmabhoomi
+narrative_event = {
+	id = norse_sacking.03
+	title = "EVTNAME_norse_sacking.03"
+	desc = "EVTDESC_norse_sacking.03"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_ram_janmabhoomi }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_ram_janmabhoomi }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_ram_janmabhoomi
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.4 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.03"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60103"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack varanasi
+narrative_event = {
+	id = norse_sacking.04
+	title = "EVTNAME_norse_sacking.04"
+	desc = "EVTDESC_norse_sacking.04"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_varanasi }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_varanasi }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_varanasi
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.5 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.04"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60104"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack sarnath
+narrative_event = {
+	id = norse_sacking.05
+	title = "EVTNAME_norse_sacking.05"
+	desc = "EVTDESC_norse_sacking.05"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_sarnath }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_sarnath }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_sarnath
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.6 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.05"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60105"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack sanchi
+narrative_event = {
+	id = norse_sacking.06
+	title = "EVTNAME_norse_sacking.06"
+	desc = "EVTDESC_norse_sacking.06"
+	major = yes
+	
+	picture = "GFX_evt_sanchi_falls"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_sanchi }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_roma }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_sanchi
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.7 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.06"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60106"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack gaya
+narrative_event = {
+	id = norse_sacking.07
+	title = "EVTNAME_norse_sacking.07"
+	desc = "EVTDESC_norse_sacking.07"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_gaya }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_venezia }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_gaya
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.8 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.07"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60107"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack ellora
+narrative_event = {
+	id = norse_sacking.08
+	title = "EVTNAME_norse_sacking.08"
+	desc = "EVTDESC_norse_sacking.08"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_ellora }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_ellora }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_ellora
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.9 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.08"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60108"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack oddiyana
+narrative_event = {
+	id = norse_sacking.09
+	title = "EVTNAME_norse_sacking.09"
+	desc = "EVTDESC_norse_sacking.09"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_oddiyana }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_lisboa }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_oddiyana
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.10 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.09"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60109"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack rajrappa
+narrative_event = {
+	id = norse_sacking.10
+	title = "EVTNAME_norse_sacking.10"
+	desc = "EVTDESC_norse_sacking.10"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_rajrappa }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_rajrappa }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_rajrappa
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.11 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.10"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60110"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack shravanabelagola
+narrative_event = {
+	id = norse_sacking.11
+	title = "EVTNAME_norse_sacking.11"
+	desc = "EVTDESC_norse_sacking.11"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_shravanabelagola }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_praha }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_shravanabelagola
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.12 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.11"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60111"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack vadnagar
+narrative_event = {
+	id = norse_sacking.12
+	title = "EVTNAME_norse_sacking.12"
+	desc = "EVTDESC_norse_sacking.12"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_vadnagar }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_wien }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_vadnagar
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.13 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.12"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60112"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack girnar
+narrative_event = {
+	id = norse_sacking.13
+	title = "EVTNAME_norse_sacking.13"
+	desc = "EVTDESC_norse_sacking.13"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_girnar }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_girnar }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_girnar
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.14 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.13"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60113"
+		trigger = { religion_group = muslim }
+	}
+}
+
+# Norse sack bhillamala
+narrative_event = {
+	id = norse_sacking.14
+	title = "EVTNAME_norse_sacking.14"
+	desc = "EVTDESC_norse_sacking.14"
+	major = yes
+	
+	picture = "GFX_evt_mongols"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = norse_sack_bhillamala }
+		OR = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+		FROM = { title = b_bhillamala }
+		OR = {
+			culture = norse
+			culture = indo-norse
+		}
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						has_landed_title = e_norse_india
+						liege = { has_landed_title = e_norse_india }
+						top_liege = { has_landed_title = e_norse_india }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			has_landed_title = e_norse_india
+			liege = { has_landed_title = e_norse_india }
+			top_liege = { has_landed_title = e_norse_india }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = norse_sack_bhillamala
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					has_landed_title = e_norse_india
+					liege = { has_landed_title = e_norse_india }
+					top_liege = { has_landed_title = e_norse_india }
+				}
+			}
+			narrative_event = { id = TOG_IND.15 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_norse_sacking.14"
+		trigger = { NOT = { religion_group = muslim } }
+	}
+	option = {
+		name = "EVTOPTB60114"
+		trigger = { religion_group = muslim }
+	}
+}

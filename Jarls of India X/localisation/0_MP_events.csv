@@ -1,0 +1,64 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTNAMEmp.0;Rise of the Indo-Norse;The Rise of the Indo-Norse;The Rise of the Indo-Norse;;The Rise of the Indo-Norse;;;;;;;;;x
+EVTDESCmp.0;Long ago our ancestors arrived in this strange land of six-armed gods to conquer and pillage in the name of Odin. Children nowadays have only heard of Scandinavia in half-forgotten stories. We've adopted so much of the native culture as our own that we must ask ourselves: Are we Norse, or something...different?;;;;;;;;;x
+EVTOPTA_MP_0;If only these Indians knew how to make a good runestone.;;;;;;;;;x
+EVTOPTB_MP_0;Tell me more about this mythical realm of Albion.;;;;;;;;;x
+EVTOPTC_MP_0;No ice giants in the jungle, that's for sure.;;;;;;;;;x
+EVTNAMEmp.1;The New Scandinavia;;;;;;;;;x
+EVTDESCmp.1;"It has been century upon century since Great India was last unified under a single banner. Not even Alexander the Great could fully conquer it, but we Northmen have accomplished what he could not. I, [Root.GetTitledFirstName], crown myself Emperor of all India, in the name Odin, in the name of Thor and in the name of Freyr."\n\nWhere they were once mere raiders, the vikings have elevated themselves to the absolute rulers of the faraway subcontinent. One of their own, [Root.GetTitledFirstName], has been declared Emperor of India, a title not truly held since Ashoka the Great. God help us all.;;;;;;;;;x
+EVTOPTA_MP_1;For Odin! For Thor! For Freyr!;;;;;;;;;x
+EVTNAMEmp.2;Strangers in a strange land;;;;;;;;;x
+EVTDESCmp.2;The odd religions of these Indians continue to pound against our own like Thor's Hammer, and with every passing year another handful of men forgets his devotion to Thor in favor of Shiva or Buddha. This cannot stand. The most respescted Norse priests have approached you and called for a reorganization of the old custom in India, with a standardized holy book and church.;;;;;;;;;x
+EVTOPTA_MP_2;May our faith become stronger than Yggdrasil's mighty roots.;;;;;;;;;x
+EVTOPTB_MP_2;Never! The old ways are best!;;;;;;;;;x
+EVTNAMEmp.3;The Lodbroks;;;;;;;;;x
+EVTDESCmp.3;"Just as Old Hairy-Breeches was the scourge of Christians, so shall we be the scourge of the Indians. The march will be long, the trials fierce, but the glory shall be everlasting in Valhalla! Ready the longboats!"\n\nThe drums of war continue to beat in the faraway land of India, where the Norse lords are fighting a losing battle. The Lodbroks, named after the greatest viking to ever live, have formed to reinforce the sons and daughters of Odin in the Far East.;;;;;;;;;x
+EVTOPTA_MP_3;We shall never surrender!;;;;;;;;;x
+EVTOPTB_MP_3;Bah! The bickering of heathens does not concern me.;;;;;;;;;x
+######;#;#;#;;#;;;;;;;;;x
+EVTOPTZ1_TOG_501;My devotion to the eternal law.;;;;;;;;;x
+EVTOPTZ2_TOG_501;My conquests to rival Ragnar himself!;;;;;;;;;x
+EVTOPTZ3_TOG_501;I will be known as the most dreaded pirate of the East.;;;;;;;;;x
+EVTOPTB_TOG_550;To think my heathen ancestors worshipped Thor.;;;;;;;;;x
+EVTDESC_TOG_58000;The runestone you commissioned has been finished and raised on the spot you chose for it. You examine the runes:\n\n[Root.GetFirstName] ordered this stone raised for the glory of the Tridevi and Trimurti. May the deniers of the Brahman have their intestines eaten a thousand-thousand times by tigers. These runes were carved by Inganam and painted by Shrey.\n\nYou leave the stone, content in the knowledge that many centuries from now, when its paint has long since faded, scholars will be studying these rune carvings in an effort to glean the wisdom of their words.;;;;;;;;;x
+EVTDESC_TOG_58001;The runestone you commissioned has been finished and raised on the spot you chose for it. You examine the runes:\n\nLet it be known that there was none more feared than the great explorer [Root.GetFirstName]. The plunder [Root.GetHerHis] took was enough to satisfy the greed of a hundred dragons. Vagn painted and carved.\n\nYou leave the stone, content in the knowledge that many centuries from now, when its paint has long since faded, scholars will be studying these rune carvings in an effort to glean the wisdom of their words.;;;;;;;;;x
+EVTDESC_TOG_58002;The runestone you commissioned has been finished and raised on the spot you chose for it. You examine the runes:\n\n[Root.GetFirstName], [Root.GetSonDaughter] of [Root.Father.GetFirstName] and [Root.Mother.GetFirstName], had these runes carved to celebrate [Root.GetHerHis] victory over the Indus, the Brahmaputra, the Ganges and the Godavari. There was no river in all of India [Root.GetSheHe] could not conquer and no city [Root.GetSheHe] could not take. Truly there is none more worthy of entering Valhalla.\n\nYou leave the stone, content in the knowledge that many centuries from now, when its paint has long since faded, scholars will be studying these rune carvings in an effort to glean the wisdom of their words.;;;;;;;;;x
+EVTDESC_TOG_67001;[From.GetTitledFirstName] the Buddhist is dragged out of the dungeon. As the guards prepare [From.GetHerHim] for the sacrifice under the tree, the prisoner looks dead ahead, whispering something about three jewels.;;;;;;;;;x
+EVTOPTA_TOG_67001;What's wrong? Didn't Buddha like trees?;;;;;;;;;x
+EVTOPTB_TOG_67001;Meh. Not today.;;;;;;;;;x
+EVTDESC_TOG_67002;[From.GetTitledFirstName] offers no resistence as the guards pull them out of your dungeons. You begin to believe the Jain will say nothing at all until the noose is finally tightened around their neck and they quietly ask you to not do this, for your own soul's sake.;;;;;;;;;x
+EVTOPTA_TOG_67002;All men must die, friend.;;;;;;;;;x
+EVTOPTB_TOG_67002;This is hardly sporting.;;;;;;;;;x
+EVTDESC_TOG_67003;Your prisonor is slowly escorted out of the dungeons, prodded all the way by your men's spears. The rope is readied and suddenly [From.GetTitledFirstName] begins to cry out to several of his gods, tears streaming down their face.;;;;;;;;;x
+EVTOPTA_TOG_67003;Perhaps you'll be reincarnated as a Norseman!;;;;;;;;;x
+EVTOPTB_TOG_67003;Wait. Stay the sacrifice for now.;;;;;;;;;x
+EVTDESC_TOG_67004;A Buddhist is brought up for sacrifice. [From.GetSheHe] doesn't say much, but the terror can plainly be seen in [From.GetHerHis] eyes as their recitations of the Eightfold Path are cut short by the tightening of the noose.;;;;;;;;;x
+EVTDESC_TOG_67005;Your liege commands that a Jain, [From.GetTitledFirstName], be brought forth from the dungoens. As the prisoner is brought out, [FromFrom.GetSheHe] tells the gathered crowd of the horrendous karmic repercussions from this "evil" act. His pleas are met with mocking laughter.;;;;;;;;;x
+EVTDESC_TOG_67006;[From.GetTitledFirstName], a Hindu that had been languishing in your lord's dungeon, is pulled out of the [From.GetHerHis] cell and under the sacrificial tree. Even when they are hoisted off the ground by the rope in preparation for the hanging, they continue to shout how Shiva will destroy us all.;;;;;;;;;x
+######;#;#;#;;#;;;;;;;;;x
+title_court_runekeeper;Court Runekeeper;;;;;;;;;x
+title_court_runekeeper_desc;The Court Runekeeper etches down every word and proclomation of his liege with unerring accuracy, similar to a court scribe. The Runekeeper also oversees the creation of new runestones, and is entrusted with their maitenance.;;;;;;;;;x
+title_longship_master;Master of the Longboat;;;;;;;;;x
+title_longship_master_desc;The rivers of India are long and winding, needing a strong boats to withstand their many perils. The Master of the Longboat is tasked with checking every boat meant for raiding, a position revered by many Indo-Norsemen, nobles and common folk alike.;;;;;;;;;x
+title_translator;Translator;;;;;;;;;x
+title_translator_desc;The Norse were, to a fashion, rather acclimated to a variety of cultures, but the sheer volume of languages in India required a court translator. It is an important position, as one word spoken out of turn could mean war.;;;;;;;;;x
+title_imperial_fylkir;Imperial Fylkir;;;;;;;;;x
+title_imperial_fylkir_desc;The Imperial Fylkir has been recognized as the spiritual leader of the Norse faith in India. Needless to say, the position carries immense prestige, along with immense responsibilities.;;;;;;;;;x
+title_master_of_temples;Jarl of Temples;;;;;;;;;x
+title_master_of_temples_desc;Even if the Hindus, Jains, and Buddhists may be heathens denying the authority of Odin, even the Norse cannot deny the beauty of their places of worship. The Jarl of Temples is charged with protecting any and all holy sites within the empire, at any cost.;;;;;;;;;x
+title_lodbrok;Sea-King;;;;;;;;x
+title_lodbrok_desc;Only the most powerful viking in the realm is worthy of the title Sea-King, a great honor to any man..;;;;;;;;;x 
+######;#;#;#;;#;;;;;;;;;x
+d_lodbroks;Lodbroks;;;;;;;;;x
+d_lodbroks;Lodbrok;;;;;;;;;x
+######;#;#;#;;#;;;;;;;;;x
+EVTOPTC_RoI_2120;RAAAAAAAAAAAAAAAAAAAAAAARGH!;;;;;;;;x;;;;;;;;;;;;;
+EVTOPTB_RoI_2121;Wha? Where am I? What happened?;;;;;;;;x;;;;;;;;;;;;;
+EVTDESC_RoI_2126;Your rage overcomes you. Throwing your spear aside, you charge the beast, arms outstretched and foam pouring out of your mouth, blacking out as your fists connect with the tiger's face. You come to your senses moments later and find yourself covered in blood, guts and striped patches of fur. You have torn the great tiger apart with your bare hands.;;;;;;;;x;;;;;;;;;;;;;
+e_norse_india;India;;;;;;;;;x
+EVTOPTD_RoI_3100;Turn this arrogant guru into a Blood Eagle!;;;;;;;;;x
+######;#;#;#;;#;;;;;;;;;x
+become_emperor_of_india;Become High Emperor of India;;;;;;;;;x
+become_emperor_of_india_desc;It has been long since India has been united, but only one group of men possess the strength to do it once more: the Norse! If we can secure a strong enough position, the rajas will have no choice but to recognize a Norseman as Emperor of India.;;;;;;;;;x
+form_the_lodbroks;Form the Lodbroks;;;;;;;;;
+form_the_lodbroks_desc;Our situation in India is fragile at best. Should the Indians unite against us, we would be destroyed. Therefore, we Norse must send out the call to all landless sons, all wandering warriors, all banished berserkers, that they must band together as one force if our eastern colonies are to survive.;;;;;;;;;x 

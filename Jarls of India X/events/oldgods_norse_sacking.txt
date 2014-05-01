@@ -1,0 +1,266 @@
+###################################
+#
+# THE OLD GODS 
+# - Norse Events
+#
+###################################
+
+# Written by Henrik Eklund
+
+namespace = TOG_IND
+
+#######################
+# Norse sack cities #
+#######################
+
+# Norse sack Kiev
+narrative_event = {
+	id = TOG_IND.1
+	title = EVTNAME_TOG_IND_001
+	desc = EVTDESC_TOG_IND_001
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Novgorod
+narrative_event = {
+	id = TOG_IND.2
+	title = EVTNAME_TOG_IND_002
+	desc = EVTDESC_TOG_IND_002
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Krakow
+narrative_event = {
+	id = TOG_IND.3
+	title = EVTNAME_TOG_IND_003
+	desc = EVTDESC_TOG_IND_003
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Aachen
+narrative_event = {
+	id = TOG_IND.4
+	title = EVTNAME_TOG_IND_004
+	desc = EVTDESC_TOG_IND_004
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Paris
+narrative_event = {
+	id = TOG_IND.5
+	title = EVTNAME_TOG_IND_005
+	desc = EVTDESC_TOG_IND_005
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack London
+narrative_event = {
+	id = TOG_IND.6
+	title = EVTNAME_TOG_IND_006
+	desc = EVTDESC_TOG_IND_006
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Rome
+narrative_event = {
+	id = TOG_IND.7
+	title = EVTNAME_TOG_IND_007
+	desc = EVTDESC_TOG_IND_007
+	picture = GFX_evt_rome_falls
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Venice
+narrative_event = {
+	id = TOG_IND.8
+	title = EVTNAME_TOG_IND_008
+	desc = EVTDESC_TOG_IND_008
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Constantinople
+narrative_event = {
+	id = TOG_IND.9
+	title = EVTNAME_TOG_IND_009
+	desc = EVTDESC_TOG_IND_009
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Lisbon
+narrative_event = {
+	id = TOG_IND.10
+	title = EVTNAME_TOG_IND_010
+	desc = EVTDESC_TOG_IND_010
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Smolensk
+narrative_event = {
+	id = TOG_IND.11
+	title = EVTNAME_TOG_IND_011
+	desc = EVTDESC_TOG_IND_011
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Prague
+narrative_event = {
+	id = TOG_IND.12
+	title = EVTNAME_TOG_IND_012
+	desc = EVTDESC_TOG_IND_012
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Vienna
+narrative_event = {
+	id = TOG_IND.13
+	title = EVTNAME_TOG_IND_013
+	desc = EVTDESC_TOG_IND_013
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
+
+# Norse sack Esztergom
+narrative_event = {
+	id = TOG_IND.14
+	title = EVTNAME_TOG_IND_014
+	desc = EVTDESC_TOG_IND_014
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_IND_001
+		prestige = 100
+	}
+}
