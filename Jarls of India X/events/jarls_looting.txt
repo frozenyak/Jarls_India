@@ -1,8 +1,8 @@
 ###################################
 # Jarls of India - Discoveries
-# Written by Blarghast, Riso
+# Written by Blarghalt, Riso
 ###################################
-namespace jarls_looting
+namespace = jarls_looting
 
 # Find Buddhist Scrolls
 character_event = {
@@ -161,8 +161,9 @@ character_event = {
 			NOT = { has_character_flag = loot_ivory_sword  }
 			NOT = { has_character_flag = loot_persian  }
 			NOT = { has_character_flag = loot_viking_helmet }
-			NOT = { has_global_flag = looted_thurmuth  }
 		}
+		
+		NOT = { has_global_flag = looted_thurmuth  }
 
 		OR = { 
 			culture = norse
@@ -171,10 +172,13 @@ character_event = {
 		has_dlc = "The Old Gods"
 	}
 	
+	immediate = {
+		set_global_flag = looted_thurmuth
+	}
+	
 	option = {
 		name = EVTOPTA_jarls_looting.25
 		set_character_flag = loot_thurmuth
-		set_global_flag = looted_thurmuth
 		change_martial = 2
 	}
 }
@@ -331,10 +335,15 @@ character_event = {
 	option = {
 		name = EVTOPTA_jarls_looting.29
 		trigger = {
-			NOT = { 
-				OR = {
-					religion = hindu
-					religion = hindu_norse
+			OR = {
+				trait = cynical
+				trait = greedy
+			}
+			OR = {
+				NOT = { religion_group = indian_group  }
+				AND = {
+					religion_group = indian_group
+					NOT = { trait = zealous }
 				}
 			}
 		}

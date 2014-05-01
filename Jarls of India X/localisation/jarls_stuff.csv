@@ -20,12 +20,18 @@ indo_norse;Indo-Norse;Indo-Norse;Indo-Norse;;Indo-Norse;;;;;;;;;x
 hindu_norse;Hindu-Norse;Hindu-Norse;Hindu-Norse;;Hindu-Norse;;;;;;;;;x
 hindu_norse_DESC;Syncretic religion of Hinduism and Norse;Hindu-Norse;Hindu-Norse;;Hindu-Norse;;;;;;;;;x
 ######;#;#;#;;#;;;;;;;;;x
-convert_to_spouse_hindu_norse;Convert to Hindu-Norse;Conversion à l'hindou-norse;Konvertiert zum Hindu-Nordisch;;Convertir al Hindu-Escandinavo;;;;;;;;;x;;;;;;;;;;;;
+convert_to_spouse_hindu_norse;Convert to Hindu-Norse;Conversion à l'hindou-norse;Konvertiert zu Hindu-Nordisch;;Convertir al Hindu-Escandinavo;;;;;;;;;x;;;;;;;;;;;;
 convert_to_spouse_hindu_norse_desc;The pillow talk of a spouse or concubine can be very persuasive. The syncretic Hindu-Norse tradition with its many powerful gods is surely the the way forward...;;Das Bettgeflüster einer Gemahlin oder Konkubine kann sehr überzeugend sein. Die synkretische Hindu-Nordische Tradition mit ihren vielen mächtigen Göttern ist sicherlich der beste Weg…;;;;;;;;;;;x;;;;;;;;;;;;
+######;#;#;#;;#;;;;;;;;;x
+duke_indo_norse;Jarl;Jarl;Jarl;;Jarl;;;;;;;;;x
+duke_hindu_norse;Jarl;Jarl;Jarl;;Jarl;;;;;;;;;x
+duchy_of_indo_norse;Jarldom of;Comté de;Jarltum von;;Jarldom de;;;;;;;;;x
+duchy_of_hindu_norse;Jarldom of;Comté de;Jarltum von;;Jarldom de;;;;;;;;;x
 ######;#;#;#;;#;;;;;;;;;x
 EVTNAME_jarls_coronation.1;The New Scandinavia;;;;;;;;;x
 EVTDESC_jarls_coronation.1;"It has been century upon century since Great India was last unified under a single banner. Not even Alexander the Great could fully conquer it, but we Northmen have accomplished what he could not. I, [Root.GetTitledFirstName], crown myself Emperor of all India, in the name Odin, in the name of Thor and in the name of Freyr."\n\nWhere they were once mere raiders, the vikings have elevated themselves to the absolute rulers of the faraway subcontinent. One of their own, [Root.GetTitledFirstName], has been declared Emperor of India, a title not truly held since Ashoka the Great. God help us all.;;;;;;;;;x
 EVTOPTA_jarls_coronation.1;For Odin! For Thor! For Freyr!;;;;;;;;;x
+lodbroks_organized;The Lodbrok Order is formed.;;Die Lodbroks wurde aufgestellt.;;;;;;;;;;;x
 ######;#;#;#;;#;;;;;;;;;x
 EVTOPTB_RoI_1177X;Now for the sacrifice...;;Et maintenant, le sacrifice...;Und jetzt zu den Opfern...;;Ahora, para el sacrificio...;;;;;x
 ######;#;#;#;;#;;;;;;;;;x
@@ -37,3 +43,4 @@ EVTNAME_jarls_religion.3;The Lodbroks;;;;;;;;;x
 EVTDESC_jarls_religion.3;"Just as Old Hairy-Breeches was the scourge of Christians, so shall we be the scourge of the Indians. The march will be long, the trials fierce, but the glory shall be everlasting in Valhalla! Ready the longboats!"\n\nThe drums of war continue to beat in the faraway land of India, where the Norse lords are fighting a losing battle. The Lodbroks, named after the greatest viking to ever live, have formed to reinforce the sons and daughters of Odin in the Far East.;;;;;;;;;x
 EVTOPTA_jarls_religion.3;We shall never surrender!;;;;;;;;;x
 EVTOPTB_jarls_religion.3;Bah! The bickering of heathens does not concern me.;;;;;;;;;x
+EVTOPTA_jarls_religion.5;They shall never surrender!;;;;;;;;;x

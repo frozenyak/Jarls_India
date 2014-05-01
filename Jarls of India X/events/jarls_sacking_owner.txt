@@ -1,6 +1,6 @@
 ###################################
 # Jarls of India - Sacking - Owner side
-# Written by Riso, Blarghast based on Mongol sacking
+# Written by Riso, Blarghalt based on Mongol sacking
 ###################################
 namespace = jarls_sacking
 
@@ -1245,10 +1245,10 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.15"
-		trigger = { religion_group = religion_group = muslim }
+		trigger = { religion_group = muslim }
 	}
 	option = {
 		name = "EVTOPTB60115"
-		trigger = { NOT = { religion_group = religion_group = muslim } }
+		trigger = { NOT = { religion_group = muslim } }
 	}
 }

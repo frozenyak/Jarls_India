@@ -1,6 +1,6 @@
 ###################################
 # Jarls of India - Coronation
-# Written by Blarghast
+# Written by Blarghalt
 ###################################
 namespace = jarls_coronation
 

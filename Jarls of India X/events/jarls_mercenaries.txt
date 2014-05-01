@@ -1,6 +1,6 @@
 ###################################
 # Jarls of India - Mercenaries
-# Written by Blarghast
+# Written by Blarghalt, Riso
 ###################################
 namespace = mp
 
@@ -12,7 +12,7 @@ narrative_event = {
 	major = yes
 	
 	picture = GFX_evt_viking_funeral_oldgods
-	border = GFX_event_normal_frame_war
+	#border = GFX_event_normal_frame_war
 	
 	only_playable = yes
 	
@@ -20,6 +20,11 @@ narrative_event = {
 		year = 1020
 		NOT = { is_title_active = d_wanderers }
 		NOT = { has_global_flag = the_wanderers_founded }
+		
+		OR = {
+			culture = norse
+			culture = indo_norse
+		}
 		
 		OR = {
 			has_landed_title = k_sindh
@@ -48,15 +53,17 @@ narrative_event = {
 	}
 	
 	immediate = {
-		set_global_flag = the_wanderers
+		set_global_flag = the_wanderers_founded
 		activate_title = { title = d_wanderers status = yes }
 		create_character = {
-			random_traits = no
+			random_traits = yes
 			dynasty = random
 			religion = ROOT
 			culture = norse
 			female = no
-			age = 22
+			age = 34
+			trait = skilled_tactician
+			trait = viking
 		}
 		new_character = {
 			wealth = 100

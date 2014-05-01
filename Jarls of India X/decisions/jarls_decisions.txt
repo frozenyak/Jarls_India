@@ -80,7 +80,7 @@ decisions = {
 			wealth = -500
 			prestige = 500
 			#piety = 1000
-			character_event = { id = jarls_coronation.1 }
+			narrative_event = { id = jarls_coronation.1 }
 			hidden_tooltip = {
 				k_sindh = { de_jure_liege = e_norse_india }
 				k_punjab = { de_jure_liege = e_norse_india }
@@ -180,10 +180,11 @@ decisions = {
 	form_the_lodbroks = {
 		is_high_prio = yes
 		potential = {
-			has_dlc = "Rajas of India"
+			#has_dlc = "Rajas of India"
 			has_dlc = "The Old Gods"
-			is_playable = yes
-			is_feudal = yes
+			#is_playable = yes
+			#is_feudal = yes
+			is_adult = yes
 			NOT = { is_title_active = d_lodbroks }
 			NOT = { has_global_flag = lodbroks_founded }
 			OR = {
@@ -237,7 +238,40 @@ decisions = {
 		effect = {
 			set_global_flag = lodbroks_founded
 			piety = -1000
-			narrative_event = { id = jarls_religion.3 }
+			#narrative_event = { id = jarls_religion.3 }
+			activate_title = { title = d_lodbroks status = yes }
+			hidden_tooltip = {
+				narrative_event = { id = jarls_religion.5 }
+				create_character = {
+					random_traits = yes
+					religion = ROOT
+					culture = norse
+					dynasty = random
+					female = no
+					age = 34
+					trait = skilled_tactician
+				}
+				new_character = {
+					d_lodbroks = {
+						grant_title = PREV
+					}
+				}
+				if = {
+					limit = { 
+						has_global_flag = norse_reformation 
+						NOT = { has_global_flag = hindu_norse_converts }
+					}
+					d_lodbroks = {
+						religion = norse_pagan_reformed # This Holy Order now changes religion
+					}
+				}
+				if = {
+					limit = { has_global_flag = hindu_norse_converts }
+					d_lodbroks = {
+						religion = hindu_norse # This Holy Order now changes religion
+					}
+				}
+			}
 		}
 		revoke_allowed = {
 			always = no

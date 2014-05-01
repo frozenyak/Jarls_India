@@ -1,3 +1,12 @@
+X.6
+various fixes
+no jomviking related requests in india
+halved wanderers growth/century
+hindus can marry hindu_norse now
+lodbroks 
+	won't be vassals by default
+	added various events based on jomvikings
+	better army composition
 X.5
 mecca sacking event
 added mercenaries year 1020

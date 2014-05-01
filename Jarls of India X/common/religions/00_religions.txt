@@ -1543,6 +1543,7 @@ indian_group = {
 		
 		intermarry = jain
 		intermarry = buddhist
+		intermarry = hindu_norse
 	}
 	buddhist = {
 		graphical_culture = buddhistgfx

@@ -1,6 +1,6 @@
 ###################################
 # Jarls of India - Religious Events
-# Written by Riso, Blarghast
+# Written by Riso, Blarghalt
 ###################################
 namespace = jarls_religion
 
@@ -48,6 +48,7 @@ character_event = {
 				title = e_rajastan
 				title = e_bengal
 				title = e_deccan
+				title = e_india
 				title = e_norse_india
 			}
 			holder_scope = {
@@ -192,8 +193,10 @@ character_event = {
 	}
 }
 
-# The Lodbroks
-
+########################################
+# The Lodbroks, based on SOA Jomvikings
+########################################
+#activate
 narrative_event = {
 	id = jarls_religion.3
 	title = EVTNAME_jarls_religion.3
@@ -206,12 +209,13 @@ narrative_event = {
 	immediate = {
 		activate_title = { title = d_lodbroks status = yes }
 		create_character = {
-			random_traits = no
+			random_traits = yes
 			dynasty = random
 			religion = ROOT
 			culture = indo_norse
 			female = no
-			age = 30
+			age = 34
+			trait = skilled_tactician
 		}
 		new_character = {
 			wealth = 400
@@ -291,15 +295,15 @@ narrative_event = {
 				age = 17
 			}
 		}
-		hidden_tooltip = {
-			d_lodbroks = {
-				holder_scope = {
-					character_event = {
-						id = jarls_religion.4
-					}
-				}
-			}
-		}
+		# hidden_tooltip = {
+			# d_lodbroks = {
+				# holder_scope = {
+					# character_event = {
+						# id = jarls_religion.4
+					# }
+				# }
+			# }
+		# }
 	}
 	
 	option = {
@@ -335,3 +339,607 @@ character_event = {
 		name = OK
 	}
 }
+
+
+# Lodbroks Founded (Founder)
+narrative_event = {
+	id = jarls_religion.5
+	title = EVTNAME_jarls_religion.3
+	desc = EVTDESC_jarls_religion.3
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_jarls_religion.5
+		hidden_tooltip = {
+			any_playable_ruler = {
+				limit = {
+					ai = no
+					OR = {
+						culture = norse
+						culture = indo_norse
+					}
+				}
+				narrative_event = { id = jarls_religion.6 }
+			}
+		}
+	}
+}
+
+# Lodbroks Founded (Norse)
+narrative_event = {
+	id = jarls_religion.6
+	title = EVTNAME_jarls_religion.3
+	desc = EVTDESC_jarls_religion.3
+	picture = GFX_evt_viking_battle_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_TOG_3101
+		custom_tooltip = { text = lodbroks_organized }
+	}
+}
+
+# The son of a ruler volunteers to join the Lodbroks
+character_event = {
+	id = jarls_religion.30
+	desc = EVTDESC_SOA_1530
+	picture = GFX_evt_vikings_arriving_oldgods
+	border = GFX_event_normal_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	max_age = 45
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			religion = hindu_norse
+		}
+		
+		martial = 5
+		
+		is_title_active = d_lodbroks
+		
+		OR = {
+			father_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+			mother_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+		}
+		
+		liege = {
+			holy_order = no
+			liege = {
+				holy_order = no
+			}
+		}
+		
+		has_dlc = "Sons of Abraham"
+		
+		NOT = { has_character_modifier = expelled_d_lodbroks }
+		NOT = {
+			any_liege = {
+				has_character_modifier = expelled_d_lodbroks
+			}
+		}
+		location = {
+			OR = {
+				empire = { title = e_rajastan }
+				empire = { title = e_bengal }
+				empire = { title = e_deccan }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.25
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.5
+			trait = homosexual
+		}
+		modifier = {
+			factor = 0.7
+			trait = content
+		}
+		modifier = {
+			factor = 0.75
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.0
+			trait = lustful
+		}
+		modifier = {
+			factor = 2.0
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.0
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2.0
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2.0
+			any_heir_title = {
+				always = yes
+			}
+		}
+		modifier = {
+			factor = 2.0
+			is_primary_heir = yes
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_SOA_1030 # Ask to go
+		ai_chance = {
+			factor = 100
+		}
+		liege = {
+			character_event = {
+				id = jarls_religion.31
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_SOA_1030 # It's a bad idea
+	}
+}
+
+# Son or brother asks to join the Lodbroks
+character_event = {
+	id = jarls_religion.31
+	desc = EVTDESC_SOA_1531
+	picture = GFX_evt_vikings_arriving_oldgods
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1031 # Agree
+		ai_chance = {
+			factor = 100
+		}
+		
+		piety = 100
+		
+		FROM = {
+			character_event = {
+				id = jarls_religion.32
+				tooltip = EVTTOOLTIP_SOA_1532
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1031 # Refuse
+		
+		piety = -100
+		
+		FROM = {
+			character_event = {
+				id = jarls_religion.33
+				tooltip = EVTTOOLTIP_SOA_1033
+			}
+		}
+	}
+}
+
+# Son or brother joins the Lodbroks
+character_event = {
+	id = jarls_religion.32
+	desc = EVTDESC_SOA_1532
+	picture = GFX_evt_vikings_arriving_oldgods
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		
+		d_lodbroks = {
+			holder_scope = {
+				ROOT = {
+					move_character = PREV
+					hidden_tooltip = {
+						clear_wealth = PREV
+					}
+					religion = PREV
+				}
+			}
+		}
+	}
+}
+
+# Liege refuses request to join the Lodbroks
+character_event = {
+	id = jarls_religion.33
+	desc = EVTDESC_SOA_1533
+	picture = GFX_evt_vikings_arriving_oldgods
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1033
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_request_holy_order
+		}
+	}
+}
+
+# Ping event when donating money to the Lodbroks
+character_event = {
+	id = jarls_religion.40
+	desc = OK
+	picture = GFX_evt_vikings_arriving_oldgods
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		wealth = 300
+		FROM = {
+			letter_event = {
+				id = jarls_religion.41
+			}
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_generous_donation
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when donating money to the Lodbroks
+letter_event = {
+	id = jarls_religion.41
+	desc = EVTDESC_SOA_1541
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+	}
+}
+
+# The Warchief requests the right to build a castle in your demesne
+character_event = {
+	id = jarls_religion.50
+	desc = OK
+	picture = GFX_evt_vikings_arriving_oldgods
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	only_playable = yes
+	
+	trigger = {
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			religion = hindu_norse
+		}
+		
+		d_lodbroks = {
+			holder_scope = {
+				wealth = 300
+				NOT = {
+					realm_size = 10
+				}
+			}
+		}
+		
+		any_demesne_province = {
+			has_empty_holding = yes
+			port = yes
+			location = {
+				county = {
+					OR = {
+						empire = { title = e_rajastan }
+						empire = { title = e_bengal }
+						empire = { title = e_deccan }
+					}
+				}
+			}
+		}
+		
+		has_dlc = "Sons of Abraham"
+		
+		NOT = { has_character_modifier = expelled_d_lodbroks }
+		NOT = {
+			any_liege = {
+				has_character_modifier = expelled_d_lodbroks
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.5
+			d_lodbroks = {
+				holder_scope = {
+					NOT = { demesne_size = 1 }
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			d_lodbroks = {
+				holder_scope = {
+					NOT = { demesne_size = 2 }
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_lodbroks = {
+				holder_scope = {
+					num_of_count_titles = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			d_lodbroks = {
+				holder_scope = {
+					realm_size = 5
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		random_demesne_province = {
+			limit = {
+				has_empty_holding = yes
+				port = yes
+				location = {
+					county = {
+						OR = {
+							empire = { title = e_rajastan }
+							empire = { title = e_bengal }
+							empire = { title = e_deccan }
+						}
+					}
+				}
+			}
+			province_event = {
+				id = jarls_religion.51
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+province_event = {
+	id = jarls_religion.51
+	desc = OK
+	picture = GFX_evt_vikings_arriving_oldgods
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		d_lodbroks = {
+			holder_scope = {
+				character_event = {
+					id = jarls_religion.52
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+character_event = {
+	id = jarls_religion.52
+	desc = OK
+	picture = GFX_evt_vikings_arriving_oldgods
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			character_event = {
+				id = jarls_religion.53
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+letter_event = {
+	id = jarls_religion.53
+	desc = EVTDESC_SOA_1553
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_SOA_1023 # Agree
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				has_character_modifier = expelled_d_lodbroks
+			}
+			modifier = {
+				factor = 0.01
+				FROMFROM = {
+					empire = {
+						title = e_norse_india
+					}
+				}
+			}
+		}
+		
+		hidden_tooltip = {
+			FROMFROM = {
+				province_event = { id = jarls_religion.54 }
+			}
+			remove_character_modifier = expelled_d_lodbroks
+		}
+		
+		piety = 200
+		wealth = 100
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1553 # Refuse
+		ai_chance = {
+			factor = 20
+		}
+		
+		piety = -100
+	}
+}
+
+# Castle has been erected
+province_event = {
+	id = jarls_religion.54
+	desc = EVTDESC_SOA_1554
+	picture = GFX_evt_castle_construction
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROMFROM = {
+			wealth = -300
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_SOA_1024
+		build_holding = {
+		   type = castle
+		   holder = FROMFROM
+		}
+	}
+}
+
+# Ping event when expelling a Pagan Holy Order
+character_event = {
+	id = jarls_religion.60
+	desc = OK
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		any_title_under = {
+			limit = {
+				tier = BARON
+				location = {
+					owner = {
+						OR = {
+							character = FROM
+							is_liege_or_above = FROM
+						}
+					}
+				}
+			}
+			usurp_title = FROM
+		}
+		
+		if = {
+			limit = {
+				is_liege_or_above = FROM
+			}
+			set_defacto_liege = THIS
+		}
+	
+		FROM = {
+			letter_event = {
+				id = jarls_religion.61
+			}
+		}
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_expelled_from_realm
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Notification event when expelling a Pagan Holy Order
+letter_event = {
+	id = jarls_religion.61
+	desc = EVTDESC_SOA_1561
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		remove_character_modifier = donated_to_holy_order
+	}
+	
+	option = {
+		name = EVTOPTB_SOA_1061
+	}
+}
+

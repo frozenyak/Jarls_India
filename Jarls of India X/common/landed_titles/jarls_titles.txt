@@ -63,7 +63,7 @@ d_wanderers = {
 	# Cannot be vassalized
 	independent = yes
 	
-	strength_growth_per_century = 1.0
+	strength_growth_per_century = 0.50
 
 	mercenary_type = wanderers_composition
 }
