@@ -44,9 +44,11 @@ EVTNAME_jarls_sacking.14;The Norse sack [From.GetName]!;Les nordique envahissent
 EVTDESC_jarls_sacking.14;The Norse scourge has poured through the Gates of [From.GetName] and sacked the holy city! It has been left a smoldering ruin and the streets now run red with the blood of its former inhabitants.;;;;;;;;;;;;;x;
 EVTOPTA_jarls_sacking.14;This time they have gone too far!;Cette fois, c'en est trop !;Diesmal sind sie zu weit gegangen!;;¡Esta vez han ido demasiado lejos!;;;;;;;;;x;
 ######;#;#;#;;#;;;;;;;;;x
+EVTNAME_jarls_sacking.100;The Fall of [From.GetName];La chute de [From.GetName];Das Ende von [From.GetName];;La Caída de [From.GetName];;;;;;;;;x
+EVTDESC_jarls_sacking.100;Brave Norse warriors have poured through the Gates of [From.GetName] and sacked the once proud holy city. It has been left a smoldering ruin and the streets now run red with the blood of its former inhabitants.;;;;;;;;;;;;;x
+EVTOPTA_jarls_sacking.100;They shall never forget our might.;Jamais ils n’oublieront notre puissance.;Sie werden unsere Macht niemals vergessen.;;Nunca deberían olvidar nuestro poderío.;;;;;;;;;x
 EVTNAME_jarls_sacking.101;The Fall of [From.GetName];La chute de [From.GetName];Das Ende von [From.GetName];;La Caída de [From.GetName];;;;;;;;;x
 EVTDESC_jarls_sacking.101;Brave Norse warriors have poured through the Gates of [From.GetName] and sacked the once proud holy city. It has been left a smoldering ruin and the streets now run red with the blood of its former inhabitants.;;;;;;;;;;;;;x
-EVTOPTA_jarls_sacking.101;They shall never forget our might.;Jamais ils n’oublieront notre puissance.;Sie werden unsere Macht niemals vergessen.;;Nunca deberían olvidar nuestro poderío.;;;;;;;;;x
 EVTNAME_jarls_sacking.102;The Fall of [From.GetName];La chute de [From.GetName];Das Ende von [From.GetName];;La Caída de [From.GetName];;;;;;;;;x
 EVTDESC_jarls_sacking.102;Brave Norse warriors have poured through the Gates of [From.GetName] and sacked the once proud holy city. It has been left a smoldering ruin and the streets now run red with the blood of its former inhabitants.;;;;;;;;;;;;;x
 EVTNAME_jarls_sacking.103;The Fall of [From.GetName];La chute de [From.GetName];Das Ende von [From.GetName];;La Caída de [From.GetName];;;;;;;;;x

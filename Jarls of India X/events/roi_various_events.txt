@@ -1894,12 +1894,14 @@ character_event = {
 		set_global_flag = thugs_global
 		random_demesne_province = {
 			limit = {
-				OR = {
-					#empire = { title = e_india }
-					#empire = { title = e_norse_india }
-					empire = { title = e_rajastan }
-					empire = { title = e_bengal }
-					empire = { title = e_deccan }
+				county = {
+					OR = {
+						#empire = { title = e_india }
+						#empire = { title = e_norse_india }
+						empire = { title = e_rajastan }
+						empire = { title = e_bengal }
+						empire = { title = e_deccan }
+					}
 				}
 			}
 			set_province_flag = thugs

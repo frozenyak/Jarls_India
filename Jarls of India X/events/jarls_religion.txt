@@ -1,3 +1,7 @@
+###################################
+# Jarls of India - Religious Events
+# Written by Riso, Blarghast
+###################################
 namespace = jarls_religion
 
 #Convert to Hindu-Norse
@@ -91,12 +95,14 @@ character_event = {
 		capital_scope = {
 			religion = hindu_norse
 		}
+		#match holy orders
 		if = {
 			limit = { is_title_active = d_lodbroks }
 			d_lodbroks = { # This Holy Order now changes religion
 				religion = hindu_norse
 			}
 		}
+		#set caste traits
 		if = {
 			limit = {
 				NOT = {
@@ -120,7 +126,7 @@ character_event = {
 				add_trait = vaishya
 			}
 		}
-		
+		#subjects change religion
 		any_realm_character = {
 			limit = { 
 				OR = {
@@ -129,6 +135,7 @@ character_event = {
 				}
 			}
 			religion = hindu_norse
+			#set caste traits
 			if = {
 				limit = {
 					NOT = {

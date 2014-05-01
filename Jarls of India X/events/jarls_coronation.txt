@@ -1,3 +1,7 @@
+###################################
+# Jarls of India - Coronation
+# Written by Blarghast
+###################################
 namespace = jarls_coronation
 
 #Norse emperor coronation

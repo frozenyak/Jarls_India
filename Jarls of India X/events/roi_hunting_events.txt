@@ -729,7 +729,7 @@ character_event = {
 		}
 	}
 	
-		option = {
+	option = {
 		name = EVTOPTC_RoI_2120 # Kill tiger in a fit of rage
 		tooltip_info = berserker
 		trigger = {

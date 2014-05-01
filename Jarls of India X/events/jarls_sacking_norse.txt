@@ -1,19 +1,32 @@
 ###################################
-#
-# THE OLD GODS 
-# - Norse Events
-#
+# Jarls of India - Sacking - Norse side
+# Written by Riso, based on Old Gods Mongol sacking
 ###################################
-
-# Written by Henrik Eklund
-
 namespace = jarls_sacking
 
 #######################
 # Norse sack cities #
 #######################
 
-# Norse sack Kiev
+# Norse sack krishnajanmabhoomi
+narrative_event = {
+	id = jarls_sacking.100
+	title = EVTNAME_jarls_sacking.100
+	desc = EVTDESC_jarls_sacking.100
+	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = "EVTOPTA_jarls_sacking.100"
+		prestige = 100
+	}
+}
+
+# Norse sack dwarakadheesh
 narrative_event = {
 	id = jarls_sacking.101
 	title = EVTNAME_jarls_sacking.101
@@ -26,12 +39,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Novgorod
+# Norse sack mahakaleshwar
 narrative_event = {
 	id = jarls_sacking.102
 	title = EVTNAME_jarls_sacking.102
@@ -44,12 +57,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Krakow
+# Norse sack ram_janmabhoomi
 narrative_event = {
 	id = jarls_sacking.103
 	title = EVTNAME_jarls_sacking.103
@@ -62,12 +75,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Aachen
+# Norse sack varanasi
 narrative_event = {
 	id = jarls_sacking.104
 	title = EVTNAME_jarls_sacking.104
@@ -80,12 +93,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Paris
+# Norse sack sarnath
 narrative_event = {
 	id = jarls_sacking.105
 	title = EVTNAME_jarls_sacking.105
@@ -98,12 +111,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack London
+# Norse sack sanchi
 narrative_event = {
 	id = jarls_sacking.106
 	title = EVTNAME_jarls_sacking.106
@@ -116,12 +129,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Rome
+# Norse sack gaya
 narrative_event = {
 	id = jarls_sacking.107
 	title = EVTNAME_jarls_sacking.107
@@ -134,12 +147,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Venice
+# Norse sack ellora
 narrative_event = {
 	id = jarls_sacking.108
 	title = EVTNAME_jarls_sacking.108
@@ -152,12 +165,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Constantinople
+# Norse sack oddiyana
 narrative_event = {
 	id = jarls_sacking.109
 	title = EVTNAME_jarls_sacking.109
@@ -170,12 +183,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Lisbon
+# Norse sack rajrappa
 narrative_event = {
 	id = jarls_sacking.110
 	title = EVTNAME_jarls_sacking.110
@@ -188,12 +201,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Smolensk
+# Norse sack shravanabelagola
 narrative_event = {
 	id = jarls_sacking.111
 	title = EVTNAME_jarls_sacking.111
@@ -206,12 +219,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Prague
+# Norse sack vadnagar
 narrative_event = {
 	id = jarls_sacking.112
 	title = EVTNAME_jarls_sacking.112
@@ -224,12 +237,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Vienna
+# Norse sack girnar
 narrative_event = {
 	id = jarls_sacking.113
 	title = EVTNAME_jarls_sacking.113
@@ -242,12 +255,12 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }
 
-# Norse sack Esztergom
+# Norse sack bhillamala
 narrative_event = {
 	id = jarls_sacking.114
 	title = EVTNAME_jarls_sacking.114
@@ -260,7 +273,7 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_jarls_sacking.101
+		name = "EVTOPTA_jarls_sacking.100"
 		prestige = 100
 	}
 }

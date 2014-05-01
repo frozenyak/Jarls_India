@@ -712,7 +712,6 @@ decisions = {
 			OR = {
 				religion = norse_pagan
 				religion = norse_pagan_reformed
-				religion = hindu_norse
 			}
 			NOT = { has_character_modifier = held_blot_timer }
 			NOT = {	has_character_flag = holding_blot }

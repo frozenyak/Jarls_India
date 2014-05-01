@@ -191,7 +191,7 @@ character_event = {
 						learning = 10
 					}
 					trait = quick
-					trait = dutiful_cleric
+					trait = martial_cleric
 					trait = weak
 				}
 				new_character = {
@@ -1014,7 +1014,7 @@ character_event = {
 		piety = -100
 		random = {
 			chance = 70
-			trait = cruel
+			add_trait = cruel
 		}
 		any_courtier = {
 			limit = { has_minor_title = title_guru }
