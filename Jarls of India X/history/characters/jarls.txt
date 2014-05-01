@@ -1,0 +1,195 @@
+686500 = {
+	name="Ragnar"
+	dynasty=1043501 #Herse dynasty, in vanilla dies out 874.1.1
+	religion="norse_pagan"
+	culture="norse"
+	
+	trait=gregarious
+	trait=ambitious
+	trait=quick
+	trait=hunter
+	trait=viking
+	trait=brilliant_strategist
+	trait=child_of_consort
+	
+	father=186501
+	
+	871.1.1={
+		birth=yes
+	}
+	893.1.1={
+		add_spouse=686503
+	}
+	912.4.13={
+		prestige = 1000 # Rich and prestigious from raiding
+		wealth = 500
+		effect = {
+			spawn_unit = {
+				province = 1360 #Maldives
+				owner = ROOT
+				leader = ROOT
+				match_character = ROOT
+				match_mult = 0.5
+				attrition = 1.0
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 29
+				attributes = {
+					martial = 5
+				}
+				trait = tough_soldier
+			}
+			new_character = {
+				spawn_unit = {
+					province = 1360 #Maldives
+					owner = PREV
+					match_character = ROOT
+					match_mult = 0.5
+					attrition = 1.0
+				}
+			}
+			create_character = {
+				random_traits = yes
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 25
+				attributes = {
+					martial = 5
+				}
+				trait = tough_soldier
+			}
+			new_character = {
+				spawn_unit = {
+					province = 1360 #Maldives
+					owner = PREV
+					match_character = ROOT
+					match_mult = 0.5
+					attrition = 1.0
+				}
+			}
+			spawn_fleet = {
+				province = closest # closest sea zone
+				owner = ROOT
+				cannot_inherit = yes # disbands on inheritance
+				troops =
+				{
+					galleys = { 40 40 }
+				}
+			}
+		}
+	}
+	933.1.1={
+		death=yes
+	}
+}
+
+686503 = {
+	name="Freja"
+	female=yes
+	dynasty=1043500 #hrolfing dies out 874.1.1
+	religion="norse_pagan"
+	culture="norse"
+	
+	trait="fair"
+	trait="proud"
+	trait="envious"
+	trait="deceitful"
+	trait="flamboyant_schemer"
+	trait=child_of_consort
+	
+	father=186500
+	
+	874.1.1={
+		birth=yes
+	}
+	943.1.1={
+		death=yes
+	}
+}
+
+686502 = {
+	name="Linda"
+	female=yes
+	dynasty=1043501
+	religion="norse_pagan"
+	culture="norse"
+	
+	trait=arbitrary
+	trait=charitable
+	trait=charismatic_negotiator
+	
+	father=686500
+	mother=686503
+	
+	894.1.1={
+		birth=yes
+	}
+	963.1.1={
+		death=yes
+	}
+}
+686501 = {
+	name="Styrkar"
+	dynasty=1043501
+	religion="norse_pagan"
+	culture="norse"
+	
+	trait=brave
+	trait=honest
+	trait=wroth
+	trait=skilled_tactician
+	
+	father=686500
+	mother=686503
+	
+	896.1.1={
+		birth=yes
+	}
+	956.1.1={
+		death=yes
+	}
+}
+686504 = {
+	name="Niklas"
+	dynasty=1043501
+	religion="norse_pagan"
+	culture="norse"
+	
+	trait=gluttonous
+	trait=just
+	
+	father=686500
+	mother=686503
+	
+	898.1.1={
+		birth=yes
+	}
+	960.1.1={
+		death=yes
+	}
+}
+686505 = {
+	name="Inga"
+	female=yes
+	dynasty=1043501
+	religion="norse_pagan"
+	culture="norse"
+	
+	trait=humble
+	
+	father=686500
+	mother=686503
+	
+	900.1.1={
+		birth=yes
+	}
+	970.1.1={
+		death=yes
+	}
+}

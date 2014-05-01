@@ -1,3 +1,7 @@
+X.9
+added 2.1.4 hostile_within_group
+X.8
+new 912 norse start in maldives
 X.7
 added missing decision icons
 creation of lodbroks cheaper

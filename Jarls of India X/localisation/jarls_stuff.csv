@@ -16,6 +16,9 @@ EVTDESC_jarls_conversion.10;My roots may be [Root.Culture.GetName], but I identi
 EVTOPTA_jarls_conversion.10;[Root.Capital.Culture.GetName] customs are superior!;Les us et coutumes de [Root.Capital.Culture.GetName] sont plus développés !;[Root.Capital.Culture.GetName] Sitten sind überlegen!;;¡Las costumbres del pueblo [Root.Capital.Culture.GetName] son superiores!;;;;;;;;;x;
 EVTOPTB_jarls_conversion.10;Never, I am still [Root.Culture.GetName]!;Je reste et resterai [Root.Culture.GetName] !;Niemals, ich bin immernoch [Root.Culture.GetName]!;;¡Jamás, aún soy [Root.Culture.GetName]!;;;;;;;;;x;
 ######;#;#;#;;#;;;;;;;;;x
+BM_RAJAS;Rajas Against the Machine;Rajas Against the Machine;Rajas Against the Machine;;Rajas Against the Machine;;;;;;;;;x
+BM_RAJAS_DESC;Norse have landed in the Maldives. Let's rock!;;;;;;;;;;;;;x
+######;#;#;#;;#;;;;;;;;;x
 indo_norse;Indo-Norse;Indo-Norse;Indo-Norse;;Indo-Norse;;;;;;;;;x
 hindu_norse;Hindu-Norse;Hindu-Norse;Hindu-Norse;;Hindu-Norse;;;;;;;;;x
 hindu_norse_DESC;Syncretic religion of Hinduism and Norse;Hindu-Norse;Hindu-Norse;;Hindu-Norse;;;;;;;;;x
@@ -27,6 +30,9 @@ duke_indo_norse;Jarl;Jarl;Jarl;;Jarl;;;;;;;;;x
 duke_hindu_norse;Jarl;Jarl;Jarl;;Jarl;;;;;;;;;x
 duchy_of_indo_norse;Jarldom of;Comté de;Jarltum von;;Jarldom de;;;;;;;;;x
 duchy_of_hindu_norse;Jarldom of;Comté de;Jarltum von;;Jarldom de;;;;;;;;;x
+#king_indo_norse;Jarlharaja;Jarlharaja;Jarlharaja;;Jarlharaja;;;;;;;;;x;;;;;;;;;;;;
+#king_female_indo_norse;Jarlharani;Jarlharani;Jarlharani;;Jarlharani;;;;;;;;;x;;;;;;;;;;;;
+#emperor_indo_norse;Jarlemange;Jarlemange;Jarlemange;;Jarlemange;;;;;;;;;x;;;;;;;;;;;;
 ######;#;#;#;;#;;;;;;;;;x
 EVTNAME_jarls_coronation.1;The New Scandinavia;;;;;;;;;x
 EVTDESC_jarls_coronation.1;"It has been century upon century since Great India was last unified under a single banner. Not even Alexander the Great could fully conquer it, but we Northmen have accomplished what he could not. I, [Root.GetTitledFirstName], crown myself Emperor of all India, in the name Odin, in the name of Thor and in the name of Freyr."\n\nWhere they were once mere raiders, the vikings have elevated themselves to the absolute rulers of the faraway subcontinent. One of their own, [Root.GetTitledFirstName], has been declared Emperor of India, a title not truly held since Ashoka the Great. God help us all.;;;;;;;;;x
