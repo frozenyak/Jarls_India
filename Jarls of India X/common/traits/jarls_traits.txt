@@ -1,0 +1,20 @@
+sea_king = {
+	potential = {
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			religion = hindu_norse
+		}
+	}
+	
+	opposites =  {
+		viking
+	}
+	
+	martial = 2
+	monthly_character_prestige = 0.5
+	same_religion_opinion = 25
+	
+	same_opinion = 10
+	religious = yes
+}

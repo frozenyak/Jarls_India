@@ -645,7 +645,7 @@ castle = {
 				OR = {
 					culture_group = north_germanic
 					culture = saxon
-					culture = indo_norse
+					#culture = indo_norse
 				}
 			}
 		}
@@ -666,7 +666,7 @@ castle = {
 				OR = {
 					culture_group = north_germanic
 					culture = saxon
-					culture = indo_norse
+					#culture = indo_norse
 				}
 			}
 		}
@@ -687,7 +687,7 @@ castle = {
 				OR = {
 					culture_group = north_germanic
 					culture = saxon
-					culture = indo_norse
+					#culture = indo_norse
 				}
 			}
 		}
@@ -708,7 +708,7 @@ castle = {
 				OR = {
 					culture_group = north_germanic
 					culture = saxon
-					culture = indo_norse
+					#culture = indo_norse
 				}
 			}
 		}

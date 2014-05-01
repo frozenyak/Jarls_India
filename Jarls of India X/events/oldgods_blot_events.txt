@@ -3365,7 +3365,7 @@ character_event = {
 			}
 		}
 		prestige = 50
-		piety = 50
+		piety = 25
 	}
 	option = {
 		name = EVTOPTB_TOG_67001
@@ -3406,7 +3406,7 @@ character_event = {
 			}
 		}
 		prestige = 50
-		piety = 50
+		piety = 25
 	}
 	option = {
 		name = EVTOPTB_TOG_67002
@@ -3415,7 +3415,7 @@ character_event = {
 	}
 }
 
-# Sacrifice Jain (Liege)
+# Sacrifice Hindu (Liege)
 character_event = {
 	id = TOG.67003
 	desc = EVTDESC_TOG_67003
@@ -3447,7 +3447,7 @@ character_event = {
 			}
 		}
 		prestige = 50
-		piety = 50
+		piety = 25
 	}
 	option = {
 		name = EVTOPTB_TOG_67003

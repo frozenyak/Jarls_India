@@ -1,0 +1,153 @@
+###################################
+# Jarls of India - Mercenaries
+# Written by Blarghast
+###################################
+namespace = mp
+
+# The Wanderers (Norse Mercenaries)
+narrative_event = {
+	id = mp.6
+	title = EVTNAMEmp.6
+	desc = EVTDESCmp.6
+	major = yes
+	
+	picture = GFX_evt_viking_funeral_oldgods
+	border = GFX_event_normal_frame_war
+	
+	only_playable = yes
+	
+	trigger = {
+		year = 1020
+		NOT = { is_title_active = d_wanderers }
+		NOT = { has_global_flag = the_wanderers_founded }
+		
+		OR = {
+			has_landed_title = k_sindh
+			has_landed_title = k_punjab
+			has_landed_title = k_delhi
+			has_landed_title = k_gujarat
+			has_landed_title = k_rajputana
+			has_landed_title = k_malwa
+			has_landed_title = k_kosala
+			has_landed_title = k_gondwana
+			has_landed_title = k_bengal
+			has_landed_title = k_kamarupa
+			has_landed_title = k_orissa
+			has_landed_title = k_bihar
+			has_landed_title = k_maharastra
+			has_landed_title = k_karnata
+			has_landed_title = k_tamilakam
+			has_landed_title = k_andhra
+			has_landed_title = k_telingana		
+			has_landed_title = k_lanka
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+	
+	immediate = {
+		set_global_flag = the_wanderers
+		activate_title = { title = d_wanderers status = yes }
+		create_character = {
+			random_traits = no
+			dynasty = random
+			religion = ROOT
+			culture = norse
+			female = no
+			age = 22
+		}
+		new_character = {
+			wealth = 100
+			d_wanderers = {
+				grant_title = PREV
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = norse
+				female = no
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = norse
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = norse
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = norse
+				female = no
+				age = 20
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = norse
+				female = no
+				age = 25
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = norse
+				female = no
+				age = 26
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = norse
+				female = no
+				age = 28
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = norse
+				female = yes
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = norse
+				female = yes
+				age = 17
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_MP_6
+		trigger = {
+			religion = ROOT
+		}
+	}
+	option = {
+		name = EVTOPTB_MP_6
+		trigger = {
+			NOT = { religion = ROOT }
+		}
+	}
+}

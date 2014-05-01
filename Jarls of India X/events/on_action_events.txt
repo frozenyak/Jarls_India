@@ -3549,6 +3549,13 @@ narrative_event = {
 			}
 			if = {
 				limit = { 
+					is_title_active = d_wanderers
+					NOT = { has_global_flag = hindu_norse_converts }
+				}
+				d_wanderers = { religion = norse_pagan_reformed }
+			}
+			if = {
+				limit = { 
 					is_title_active = d_lodbroks
 					NOT = { has_global_flag = hindu_norse_converts }
 				}

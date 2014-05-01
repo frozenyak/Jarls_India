@@ -18,7 +18,7 @@ d_lodbroks = {
 	# Parent Religion 
 	religion = norse_pagan
 	
-	culture = indo_norse
+	culture = norse
 	
 	# Cannot be held as a secondary title
 	primary = yes
@@ -27,6 +27,45 @@ d_lodbroks = {
 	monthly_income = 2 # (Must be an integer between 1 and 512)
 
 	mercenary_type = lodbroks_composition
+}
+
+d_wanderers = {
+
+	color={ 39 29 100 }
+	color2={ 255 255 255 }
+
+	capital = 1360
+	
+	# Hire Trigger
+	allow = {
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			religion = indian_group
+		}
+	}
+	
+	# Parent Religion 
+	religion = norse_pagan
+	culture = norse
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 1.0
+
+	mercenary_type = wanderers_composition
 }
 
 e_norse_india = {                      # Titular, created by special decision only if entire India is united by the Norse or Indo-Norse

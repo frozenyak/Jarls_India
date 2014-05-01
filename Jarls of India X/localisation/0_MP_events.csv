@@ -15,14 +15,38 @@ EVTNAMEmp.3;The Lodbroks;;;;;;;;;x
 EVTDESCmp.3;"Just as Old Hairy-Breeches was the scourge of Christians, so shall we be the scourge of the Indians. The march will be long, the trials fierce, but the glory shall be everlasting in Valhalla! Ready the longboats!"\n\nThe drums of war continue to beat in the faraway land of India, where the Norse lords are fighting a losing battle. The Lodbroks, named after the greatest viking to ever live, have formed to reinforce the sons and daughters of Odin in the Far East.;;;;;;;;;x
 EVTOPTA_MP_3;We shall never surrender!;;;;;;;;;x
 EVTOPTB_MP_3;Bah! The bickering of heathens does not concern me.;;;;;;;;;x
+EVTNAMEmp.5;The Sack of Mecca;;;;;;;;;x
+EVTDESCmp.5;Your raiders have captured Mecca, and you quickly go to work seizing anything of importance from the great holy city. Your men take books, gold, prisoners, and even pieces of the city itself as souvenirs, torching the rest. Flames and smoke dance around the angular black edges of the Kaaba as you return to your longboat.;;;;;;;;;x
+EVTOPTA_MP_3;Odin has blessed this journey.;;;;;;;;;x
+EVTNAMEmp.6;The Wanderers;;;;;;;;;x
+EVTDESCmp.6;Boldened by the news of Norse conquests in the Far East, a loose collection of vikings have banded together and begun the long march to India. They call themselves The Wanderers, and are more than ready to fight for anyone who can promise them enough coin and glory.;;;;;;;;;x
+EVTOPTA_MP_6;I wish them luck.;;;;;;;;;x
+EVTOPTB_MP_6;You mean to tell me those blasted pirates are moving? Excellent!;;;;;;;;;x
+EVTNAMEmp.7;A whole new world;;;;;;;;;x
+EVTDESCmp.7;News from the south! Tjudmund Aleson, a banished son looking for his own claim to renown, set forth a large expedition in attempt to find land to claim as his own. He navigated around the great island chain to the east, then south. Just as they were about to turn around, one of she ships spotted what appeared to be a huge island.\n\nHis supplies were too exhausted to make anything more than a quick expedition, but initial forays revealed that the land is dominated by a large desert beyond the shores. Even more amazing is that the land is already inhabited by other people! For now, Tjudmund has returned, swearing an oath that he will eventually explore his discovery in full.;;;;;;;;;x
+EVTOPTA_MP_7;Just how big is this world?;;;;;;;;;x
+EVTNAMEmp.8;Settlers reach Dryland;;;;;;;;;x
+EVTDESCmp.8;After several more expeditions, explorers have come to the conclusion that this new land is either the largest island in the world, or a new continent altogether. Tjudmund Aleson has started a small settlement on the northern coast of this new land, and so far has only had minor skirmishes with the natives.\n\n He calls this new place Dryland, possibly to lure Norsemen who are tired of India's sweltering jungles.;;;;;;;;;x
+EVTOPTA_MP_8;Dryland, hm?;;;;;;;;;x
+EVTNAMEmp.9;Discovery of New Norway;;;;;;;;;x
+EVTDESCmp.9;Toki Tjudmundson, great-grandson of the great explorer Tjudmund Aleson, has discovered land to the far east of Dryland! Nobody knows what possessed him to sail out into the open ocean, but there he discovered two big islands, and dubbed them collectively as New Norway.\n\nThe story of his exploration boggles the mind. He claims to have found insects as heavy as a man's fist, tiny flightless birds, and even eagles that equal a man in size and pick can him off the ground with ease. These accounts would normally be dismissed as pure fiction if his crew handn't captured one of the great eagles and brought it back as proof.;;;;;;;;;x
+EVTOPTA_MP_9;A tale for the ages!;;;;;;;;x
+EVTNAMEmp.10;The Great Southern Land;;;;;;;;;x
+EVTDESCmp.10;Mathematicians and philosophers the world over have always speculated that there must be some mysterious continent to the south, and now they have been proven correct. An exiled Norseman all the way from Denmark known only as Olaf the Black arrived in India several years ago, and managed to scrounge up enough resources for an expedition. Sailing straight south, he and his crew spotted several island before finally catching sight of the frozen shores of the Great Southern Land.\n\nFrom Olaf's accounts, the unknown land is almost completely encased in ice, yet life still thrives there, as penguins and seals can be found up and down the coast. Even the white-eyed whales congregate there in high numbers.;;;;;;;;;x
+EVTOPTA_MP_10;I always knew there was something down there.;;;;;;;;x
+EVTNAMEmp.11;Farewell to Thee;;;;;;;;;x
+EVTDESCmp.11;Not content with just finding the frozen southern continent, Olaf the Black staged a second expedition based out of Dryland, going out farther than any Norse explorer before him. Entire months were spent in the great eastern sea, and many of his crew died of disease and hunger, but they finally made landfall in a strange land dotted with volcanoes, lush jungles and odd natives. Fortunately, the meeting with the locals was peaceful, and Olaf retuned with a shipload of gifts.;;;;;;;;;x
+EVTOPTA_MP_11;Good for him.;;;;;;;;x
 ######;#;#;#;;#;;;;;;;;;x
 EVTOPTZ1_TOG_501;My devotion to the eternal law.;;;;;;;;;x
 EVTOPTZ2_TOG_501;My conquests to rival Ragnar himself!;;;;;;;;;x
 EVTOPTZ3_TOG_501;I will be known as the most dreaded pirate of the East.;;;;;;;;;x
+EVTOPTZ4_TOG_501;Tell of my ferocity in battle!;;;;;;;;;x
 EVTOPTB_TOG_550;To think my heathen ancestors worshipped Thor.;;;;;;;;;x
 EVTDESC_TOG_58000;The runestone you commissioned has been finished and raised on the spot you chose for it. You examine the runes:\n\n[Root.GetFirstName] ordered this stone raised for the glory of the Tridevi and Trimurti. May the deniers of the Brahman have their intestines eaten a thousand-thousand times by tigers. These runes were carved by Inganam and painted by Shrey.\n\nYou leave the stone, content in the knowledge that many centuries from now, when its paint has long since faded, scholars will be studying these rune carvings in an effort to glean the wisdom of their words.;;;;;;;;;x
 EVTDESC_TOG_58001;The runestone you commissioned has been finished and raised on the spot you chose for it. You examine the runes:\n\nLet it be known that there was none more feared than the great explorer [Root.GetFirstName]. The plunder [Root.GetHerHis] took was enough to satisfy the greed of a hundred dragons. Vagn painted and carved.\n\nYou leave the stone, content in the knowledge that many centuries from now, when its paint has long since faded, scholars will be studying these rune carvings in an effort to glean the wisdom of their words.;;;;;;;;;x
 EVTDESC_TOG_58002;The runestone you commissioned has been finished and raised on the spot you chose for it. You examine the runes:\n\n[Root.GetFirstName], [Root.GetSonDaughter] of [Root.Father.GetFirstName] and [Root.Mother.GetFirstName], had these runes carved to celebrate [Root.GetHerHis] victory over the Indus, the Brahmaputra, the Ganges and the Godavari. There was no river in all of India [Root.GetSheHe] could not conquer and no city [Root.GetSheHe] could not take. Truly there is none more worthy of entering Valhalla.\n\nYou leave the stone, content in the knowledge that many centuries from now, when its paint has long since faded, scholars will be studying these rune carvings in an effort to glean the wisdom of their words.;;;;;;;;;x
+EVTDESC_TOG_58003;The runestone you commissioned has been finished and raised on the spot you chose for it. You examine the runes:\n\Let all mean fear the name of [Root.GetFirstName], who waded through the blood of [Root.GetHerHis] enemies in great fury and strength. No man could stand against him on the battlefield, and all who did were struck down with the axe. Toki painted, Sigurd carved and [Root.GetFirstName] left the giant crack on the right side of this stone in a fit of rage.\n\nYou leave the stone, content in the knowledge that many centuries from now, when its paint has long since faded, scholars will be studying these rune carvings in an effort to glean the wisdom of their words.;;;;;;;;;x
 EVTDESC_TOG_67001;[From.GetTitledFirstName] the Buddhist is dragged out of the dungeon. As the guards prepare [From.GetHerHim] for the sacrifice under the tree, the prisoner looks dead ahead, whispering something about three jewels.;;;;;;;;;x
 EVTOPTA_TOG_67001;What's wrong? Didn't Buddha like trees?;;;;;;;;;x
 EVTOPTB_TOG_67001;Meh. Not today.;;;;;;;;;x
@@ -33,7 +57,7 @@ EVTDESC_TOG_67003;Your prisonor is slowly escorted out of the dungeons, prodded 
 EVTOPTA_TOG_67003;Perhaps you'll be reincarnated as a Norseman!;;;;;;;;;x
 EVTOPTB_TOG_67003;Wait. Stay the sacrifice for now.;;;;;;;;;x
 EVTDESC_TOG_67004;A Buddhist is brought up for sacrifice. [From.GetSheHe] doesn't say much, but the terror can plainly be seen in [From.GetHerHis] eyes as their recitations of the Eightfold Path are cut short by the tightening of the noose.;;;;;;;;;x
-EVTDESC_TOG_67005;Your liege commands that a Jain, [From.GetTitledFirstName], be brought forth from the dungoens. As the prisoner is brought out, [FromFrom.GetSheHe] tells the gathered crowd of the horrendous karmic repercussions from this "evil" act. His pleas are met with mocking laughter.;;;;;;;;;x
+EVTDESC_TOG_67005;Your liege commands that a Jain, [From.GetTitledFirstName], be brought forth from the dungoens. As the prisoner is brought out, [FromFrom.GetSheHe] tells the gathered crowd of the horrendous karmic repercussions from this "evil" act. [From.GetHerHis] pleas are met with mocking laughter.;;;;;;;;;x
 EVTDESC_TOG_67006;[From.GetTitledFirstName], a Hindu that had been languishing in your lord's dungeon, is pulled out of the [From.GetHerHis] cell and under the sacrificial tree. Even when they are hoisted off the ground by the rope in preparation for the hanging, they continue to shout how Shiva will destroy us all.;;;;;;;;;x
 ######;#;#;#;;#;;;;;;;;;x
 title_court_runekeeper;Court Runekeeper;;;;;;;;;x
@@ -46,11 +70,17 @@ title_imperial_fylkir;Imperial Fylkir;;;;;;;;;x
 title_imperial_fylkir_desc;The Imperial Fylkir has been recognized as the spiritual leader of the Norse faith in India. Needless to say, the position carries immense prestige, along with immense responsibilities.;;;;;;;;;x
 title_master_of_temples;Jarl of Temples;;;;;;;;;x
 title_master_of_temples_desc;Even if the Hindus, Jains, and Buddhists may be heathens denying the authority of Odin, even the Norse cannot deny the beauty of their places of worship. The Jarl of Temples is charged with protecting any and all holy sites within the empire, at any cost.;;;;;;;;;x
-title_lodbrok;Sea-King;;;;;;;;x
-title_lodbrok_desc;Only the most powerful viking in the realm is worthy of the title Sea-King, a great honor to any man..;;;;;;;;;x 
+title_lodbrok;Imperial Cartographer;;;;;;;x
+title_lodbrok_desc;The Imperial Cartographer is tasked with keeping up-to-date maps of the Indian Empire, charting out roads and provinces, then enscribing them onto runestones and placing them in public sight.;;;;;;;;;x 
+######;#;#;#;;#;;;;;;;;;x
+EVTOPTD_RoI_412;Just kill them. My men need the exercise.;;;;;;;;;x
 ######;#;#;#;;#;;;;;;;;;x
 d_lodbroks;Lodbroks;;;;;;;;;x
-d_lodbroks;Lodbrok;;;;;;;;;x
+d_lodbroks_adj;Lodbrok;;;;;;;;;x
+d_wanderers;Wanderers;;;;;;;;;x
+d_wanderers_adj;Wanderer;;;;;;;;;x
+######;#;#;#;;#;;;;;;;;;x
+indo_norse;Indo-Norse;;;;;;;;;x
 ######;#;#;#;;#;;;;;;;;;x
 EVTOPTC_RoI_2120;RAAAAAAAAAAAAAAAAAAAAAAARGH!;;;;;;;;x;;;;;;;;;;;;;
 EVTOPTB_RoI_2121;Wha? Where am I? What happened?;;;;;;;;x;;;;;;;;;;;;;
@@ -59,6 +89,35 @@ e_norse_india;India;;;;;;;;;x
 EVTOPTD_RoI_3100;Turn this arrogant guru into a Blood Eagle!;;;;;;;;;x
 ######;#;#;#;;#;;;;;;;;;x
 become_emperor_of_india;Become High Emperor of India;;;;;;;;;x
-become_emperor_of_india_desc;It has been long since India has been united, but only one group of men possess the strength to do it once more: the Norse! If we can secure a strong enough position, the rajas will have no choice but to recognize a Norseman as Emperor of India.;;;;;;;;;x
+become_emperor_of_india_desc;It has been long since India has been united, but only one group of men possess the strength to do it once more: the Norse! If we can secure a strong enough position, the rajas will have no choice but to recognize a Norseman as High Emperor of India.;;;;;;;;;x
 form_the_lodbroks;Form the Lodbroks;;;;;;;;;
 form_the_lodbroks_desc;Our situation in India is fragile at best. Should the Indians unite against us, we would be destroyed. Therefore, we Norse must send out the call to all landless sons, all wandering warriors, all banished berserkers, that they must band together as one force if our eastern colonies are to survive.;;;;;;;;;x 
+######;#;#;#;;#;;;;;;;;;x
+EVTDESC_TOG_3321;As your men burn the settlement, one of your men comes up to you holding a bundle of scrolls under his arm. He hands them to you, explaining that a Buddhist monk died trying to protect them. They must be valuable.;;;;;;;;;x
+EVTOPTA_TOG_3321;Well, it's not runes, but it'll do.;;;;;;;;;x
+EVTDESC_TOG_3322;One of your men brings back a strange machine. After closer inspection, you find it has a trigger and somehow fires steel-tipped arrows via a pulley mechanism.;;;;;;;;;x
+EVTOPTA_TOG_3322;What a wonderful contraption!;;;;;;;;;x
+EVTDESC_TOG_3323;By chance, you find an old Roman argenteus lying on the ground. No sooner do you pick it up than you spot a small sack of gold.;;;;;;;;;x
+EVTOPTA_TOG_3323;My lucky coin!;;;;;;;;;x
+EVTDESC_TOG_3324;You find a tiny statue of an fat buddha inside one of the houses. You don't think much of it until you turn around to leave, only to find a sack of coins you could swear wasn't there before.;;;;;;;;;x
+EVTOPTA_TOG_3324;A good luck charm? Wonderful!;;;;;;;;;x
+EVTDESC_TOG_3325;Your men have looted a local temple, and come back carrying a massive, gold-bound chest. You instruct them to open it, and inside you find an expertly-crafted sword, covered in Norse-like runes with the Hindu symbol for good luck in the center of the blade. You pick it up, swinging it about a few times to hear its song as it cuts the wind. This must be one of the finest swords ever created.;;;;;;;;;x
+EVTOPTA_TOG_3325;I shall call it...Thurmuth.;;;;;;;;;x
+EVTDESC_TOG_3326;As you walk among the dead enemy soldiers, you spot a blade that catches your fancy. Picking it up, you notice that it is brilliantly embedded with jewels and gold, and heavier than your normal old battle-axe. You decide to make it your new weapon.;;;;;;;;;x
+EVTOPTA_TOG_3326;I've got a curved sword. Curved. Sword.;;;;;;;;;x
+EVTDESC_TOG_3327;One of your soldiers finds a strange trinket in the looted holdings. From what you can tell, someone made a helmet and attached horns to it, perhaps as a joke. You put it on to the riotious laughter of your men, only to discover you can't remove it due to some otherwordly urge.;;;;;;;;;x
+EVTOPTA_TOG_3327;I...I must wear this...;;;;;;;;;x
+EVTDESC_TOG_3328;One of your men returns with something wrapped in colorful cloth. He hands it over and you tear the binding away to find a large sword with an ivory handle and sheath, inlaid with symbols of battle and conquest. While it may seem foppish, the sword is perfectly balanced and more than fit for battle.;;;;;;;;;x
+EVTOPTA_TOG_3328;It's beautiful.;;;;;;;;;x
+EVTDESC_TOG_3329;Several of your men come back carrying a large golden statue of the Indian god Shiva. They set it at your feet, asking what to do with it.;;;;;;;;;x
+EVTOPTA_TOG_3329;Melt it down.;;;;;;;;;x
+EVTDESC_TOG_3330;The holding you looted contained a rather large archive of scrolls and books. Most of it was junk, but you did happen to find a massive tome with a brillaint trimmings. You open it it up, and instantly recognize that it is a very old Quran, the Muslim holy book.;;;;;;;;;x
+EVTOPTA_TOG_3330;This will make a fine addition to my library!;;;;;;;;;x
+EVTDESC_TOG_3331;No longer just a viking, you have become known as a sea-king, a title reserved for only the strongest of raiders. Tales of your conquests are told from Scotland to Ceylon, and many wonder if you are even human.;;;;;;;;;x
+EVTOPTA_TOG_3331;Only Odin can judge me.;;;;;;;;;x
+EVTDESC_TOG_3332;Your men bring back pillage aplenty. As they march by, one of them walks up and hands you a large, dusty book. He tells you that he can't read, but he thought the book looked interesting, so he took it along with him to give to you. As he leaves, you crack open the tome and realize it's an ancient and masterfully illustrated Bible, the holy book of the Christians.;;;;;;;;;x
+EVTOPTA_TOG_3332;Knowledge is power.;;;;;;;;;x
+EVTDESC_TOG_3332;While you loot the house of one of the richer residents, you discover a beautiful vase of unerring quality. After a bit more searching, you find that there's an entire set! You take them with you as a prize.
+EVTOPTA_TOG_3332;The spoils of war!;;;;;;;;;x
+sea_king;Sea King;;;;;;;;;;x
+sea_king_desc;This individual has gained infamy as one of the most feared pirates in the world.;;;;;;;;;x

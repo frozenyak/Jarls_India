@@ -1,6 +1,6 @@
 ###################################
 # Jarls of India - Sacking - Norse side
-# Written by Riso, based on Old Gods Mongol sacking
+# Written by Riso based on Old Gods Mongol sacking
 ###################################
 namespace = jarls_sacking
 
@@ -266,6 +266,24 @@ narrative_event = {
 	title = EVTNAME_jarls_sacking.114
 	desc = EVTDESC_jarls_sacking.114
 	picture = GFX_evt_mongols_pillage_oldgods
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = "EVTOPTA_jarls_sacking.100"
+		prestige = 100
+	}
+}
+
+# Norse sack Mecca
+narrative_event = {
+	id = jarls_sacking.115
+	title = EVTNAME_jarls_sacking.115
+	desc = EVTDESC_jarls_sacking.115
+	picture = GFX_evt_mecca_falls_soa
 	border = GFX_event_narrative_frame_war
 	
 	is_triggered_only = yes

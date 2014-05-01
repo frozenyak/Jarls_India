@@ -3817,6 +3817,28 @@ character_event = {
 			}
 		}
 	}
+	
+	option = {
+		name = EVTOPTD_RoI_412
+		trigger = {
+			OR = { 
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+			}
+		}
+		tooltip_info = diplomacy
+		custom_tooltip = { text = realm_jains_upset }
+		hidden_tooltip = {
+			any_realm_character  = {
+				limit = { religion = jain }
+				opinion = {
+					who = ROOT
+					years = 10
+					modifier = opinion_upset
+				}
+			}
+		}
+	}
 }
 
 ###########################################

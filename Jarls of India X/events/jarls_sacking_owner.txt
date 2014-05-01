@@ -1,6 +1,6 @@
 ###################################
 # Jarls of India - Sacking - Owner side
-# Written by Riso, based on Mongol sacking
+# Written by Riso, Blarghast based on Mongol sacking
 ###################################
 namespace = jarls_sacking
 
@@ -75,11 +75,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.00"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60100"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -153,11 +153,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.01"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60101"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -231,11 +231,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.02"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60102"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -309,11 +309,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.03"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60103"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -387,11 +387,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.04"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60104"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -465,11 +465,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.05"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60105"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -543,11 +543,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.06"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60106"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -621,11 +621,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.07"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60107"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -699,11 +699,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.08"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60108"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -777,11 +777,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.09"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60109"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -855,11 +855,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.10"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60110"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -933,11 +933,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.11"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60111"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -1011,11 +1011,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.12"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60112"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -1089,11 +1089,11 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.13"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60113"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
 	}
 }
 
@@ -1167,10 +1167,88 @@ narrative_event = {
 	
 	option = {
 		name = "EVTOPTA_jarls_sacking.14"
-		trigger = { NOT = { religion_group = muslim } }
+		trigger = { religion_group = indian_group }
 	}
 	option = {
 		name = "EVTOPTB60114"
-		trigger = { religion_group = muslim }
+		trigger = { NOT = { religion_group = indian_group } }
+	}
+}
+
+# Norse sack Mecca
+narrative_event = {
+	id = jarls_sacking.15
+	title = "EVTNAME_jarls_sacking.15"
+	desc = "EVTDESC_jarls_sacking.15"
+	major = yes
+	
+	picture = "GFX_evt_mecca_falls_soa"
+	border = "GFX_event_narrative_frame_war"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = mongols_sack_mecca }
+		OR = {
+			culture = norse
+			liege = { culture = norse }
+			top_liege = { culture = norse }
+			culture = indo_norse
+			liege = { culture = indo_norse }
+			top_liege = { culture = indo_norse }
+		}
+		FROM = { title = b_mecca }
+		NOT = {
+			FROM = {
+				owner = {
+					OR = {
+						culture = norse
+						liege = { culture = norse }
+						top_liege = { culture = norse }
+						culture = indo_norse
+						liege = { culture = indo_norse }
+						top_liege = { culture = indo_norse }
+					}
+				}
+			}
+		}		
+	}
+	
+	major_trigger = {
+		NOT = {
+			culture = norse
+			liege = { culture = norse }
+			top_liege = { culture = norse }
+			culture = indo_norse
+			liege = { culture = indo_norse }
+			top_liege = { culture = indo_norse }
+		}
+	}
+	
+	immediate = {
+		set_global_flag = mongols_sack_mecca
+		any_playable_ruler = {
+			limit = {
+				ai = no
+				OR = {
+					culture = norse
+					liege = { culture = norse }
+					top_liege = { culture = norse }
+					culture = indo_norse
+					liege = { culture = indo_norse }
+					top_liege = { culture = indo_norse }
+				}
+			}
+			narrative_event = { id = jarls_sacking.115 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_jarls_sacking.15"
+		trigger = { religion_group = religion_group = muslim }
+	}
+	option = {
+		name = "EVTOPTB60115"
+		trigger = { NOT = { religion_group = religion_group = muslim } }
 	}
 }

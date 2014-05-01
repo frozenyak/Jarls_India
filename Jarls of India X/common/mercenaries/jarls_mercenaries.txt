@@ -6,3 +6,14 @@ lodbroks_composition = {
 	levy_size = 6
 	heavy_infantry = 900
 }
+
+wanderers_composition{
+	levy_size = 6
+	#light_infantry = 400
+	#light_cavalry = 100
+	#knights = 50
+	
+	archers = 150
+	heavy_infantry = 250
+	light_infantry = 200
+}

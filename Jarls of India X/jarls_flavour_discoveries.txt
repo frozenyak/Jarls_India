@@ -1,0 +1,163 @@
+###################################
+# Jarls of India - Discoveries
+# Written by Blarghast
+###################################
+namespace mp
+
+# Discovery of Australia
+narrative_event = {
+	id = mp.7
+	title = EVTNAMEmp.7
+	desc = EVTDESCmp.7
+	picture = GFX_evt_Desert
+	border = GFX_event_narrative_frame_diplomacy
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "The Old Gods"
+		1 = { culture_group = north_germanic }
+		culture_group = indo_norse
+		year = 1050
+		NOT = { has_global_flag = australia_discovered }
+	}	
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	immediate = {
+		set_global_flag = Australia_discovered
+	}
+	
+	option = {
+		name = EVTOPTA_MP_7
+	}
+}
+
+# Australia settled, named
+narrative_event = {
+	id = mp.8
+	title = EVTNAMEmp.8
+	desc = EVTDESCmp.8
+	picture = GFX_evt_trade_post_republic
+	border = GFX_event_narrative_frame_diplomacy
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "The Old Gods"
+		1 = { culture_group = north_germanic }
+		culture = indo_norse
+		year = 1075
+		has_global_flag = australia_discovered
+		NOT = { has_global_flag = australia_settled }
+	}	
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	immediate = {
+		set_global_flag = australia_settled
+	}
+	
+	option = {
+		name = EVTOPTA_MP_8
+	}
+}
+
+# Discovery of New Zealand
+narrative_event = {
+	id = mp.9
+	title = EVTNAMEmp.9
+	desc = EVTDESCmp.9
+	picture = GFX_evt_longships_at_sea_oldgods
+	border = GFX_event_narrative_frame_diplomacy
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "The Old Gods"
+		1 = { culture_group = north_germanic }
+		culture = indo_norse
+		year = 1150
+		has_global_flag = australia_settled
+		NOT = { has_global_flag = NZ_discovered }
+	}	
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	immediate = {
+		set_global_flag = NZ_discovered
+	}
+	
+	option = {
+		name = EVTOPTA_MP_9
+	}
+}
+
+# Discovery of Antarctica (eat your heart out, Cook) 
+narrative_event = {
+	id = mp.10
+	title = EVTNAMEmp.10
+	desc = EVTDESCmp.10
+	picture = GFX_evt_longships_at_sea_oldgods
+	border = GFX_event_narrative_frame_diplomacy
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "The Old Gods"
+		1 = { culture_group = north_germanic }
+		culture = indo_norse
+		year = 1272
+		NOT = { has_global_flag = antarctica_discovered }
+	}	
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	immediate = {
+		set_global_flag = antarctica_discovered
+	}
+	
+	option = {
+		name = EVTOPTA_MP_10
+	}
+}
+
+# Discovery of Hawaii (Norse can into California) 
+narrative_event = {
+	id = mp.11
+	title = EVTNAMEmp.11
+	desc = EVTDESCmp.11
+	picture = GFX_evt_merchant_ship_at_sea_republic
+	border = GFX_event_narrative_frame_diplomacy
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "The Old Gods"
+		1 = { culture_group = north_germanic }
+		culture = indo_norse
+		year = 1278
+		has_global_flag = antartica_discovered
+		NOT = { has_global_flag = hawaii_discovered }
+	}	
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	immediate = {
+		set_global_flag = hawaii_discovered
+	}
+	
+	option = {
+		name = EVTOPTA_MP_11
+	}
+}

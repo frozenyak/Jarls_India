@@ -757,7 +757,7 @@ on_siege_won_leader = {
 		60118 # Mongols sack Jerusalem
 		60119 # Mongols sack Alexandria
 		60120 # Mongols sack Cairo
-		60121 # Mongols sack Mecca
+		60121 # Mongols sack Mecca only if Norse havent
 		88005 # Mongols sack city near the Hashshashin
 		jarls_sacking.00 # Norse sack krishnajanmabhoomi
 		jarls_sacking.01 # Norse sack dwarakadheesh
@@ -774,6 +774,7 @@ on_siege_won_leader = {
 		jarls_sacking.12 # Norse sack vadnagar
 		jarls_sacking.13 # Norse sack girnar
 		jarls_sacking.14 # Norse sack bhillamala
+		jarls_sacking.15 # Norse sack mecca only if Mongols havent
 	}
 	random_events = {
 		300 = 0
@@ -1049,8 +1050,21 @@ on_loot_settlement = {
 		5 = TOG.3301
 		5 = TOG.3302
 		5 = TOG.3303
-		35 = TOG.3320
-		250 = 0
+		20 = TOG.3320
+		4 = jarls_looting.21
+		5 = jarls_looting.22
+		4 = jarls_looting.23
+		4 = jarls_looting.24
+		1 = jarls_looting.25
+		4 = jarls_looting.26
+		5 = jarls_looting.27
+		3 = jarls_looting.28
+		3 = jarls_looting.29
+		5 = jarls_looting.30
+		2 = jarls_looting.31
+		5 = jarls_looting.32
+		5 = jarls_looting.33
+		200 = 0
 	}
 }
 

@@ -730,6 +730,29 @@ character_event = {
 		}
 			
 	}
+	option = {
+		name = EVTOPTZ4_TOG_501
+		tooltip_info = viking
+		trigger = {
+			OR = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+			}
+			culture = indo_norse
+			trait = viking
+			NOT = {
+				trait = lunatic
+				trait = possessed
+				trait = imbecile
+			}
+		}
+		
+		custom_tooltip = {
+			text = runestone_carved
+			hidden_tooltip = { character_event = { id = TOG.58003 days = 60 random = 10 } }
+		}
+			
+	}
 }
 
 # Father (Death by Natural Causes)
@@ -1691,10 +1714,10 @@ character_event = {
 		OR = {
 			culture = norse
 			religion = norse_pagan
-			religion = hindu_norse
 		}
 		year = 1150
 		NOT = { has_character_flag = runestones_halted }
+		NOT = { religion = hindu_norse }
 	}
 	
 	mean_time_to_happen = {
@@ -1767,6 +1790,28 @@ narrative_event = {
 	option = {
 		name = EVTOPTA_TOG_550
 		prestige = 200
+		add_character_modifier = {
+			name = raised_runestone
+			duration = 730
+		}
+	}
+}
+
+# Berserker
+narrative_event = {
+	id = TOG.58003
+	title = EVTNAME_TOG_550
+	desc = EVTDESC_TOG_58003
+	picture = GFX_evt_runestone_raising_oldgods
+	border = GFX_event_narrative_frame_diplomacy
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_TOG_550
+		prestige = 300
 		add_character_modifier = {
 			name = raised_runestone
 			duration = 730

@@ -1,4 +1,4 @@
-name = "Jarls of India X 4"
+name = "Jarls of India X 5"
 path = "mod/Jarls of India X"
 user_dir = "Jarls of India"
 expand_path = "common/cultures"

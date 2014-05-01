@@ -1,0 +1,28 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_jarls_looting.21;As your men burn the settlement, one of your men comes up to you holding a bundle of scrolls under his arm. He hands them to you, explaining that a Buddhist monk died trying to protect them. They must be valuable.;;;;;;;;;x
+EVTOPTA_jarls_looting.21;It will do.;;;;;;;;;x
+EVTDESC_jarls_looting.22;One of your men brings back a strange machine. After closer inspection, you find it has a trigger and somehow fires steel-tipped arrows via a pulley mechanism.;;;;;;;;;x
+EVTOPTA_jarls_looting.22;What a wonderful contraption!;;;;;;;;;x
+EVTDESC_jarls_looting.23;By chance, you find an old Roman argenteus lying on the ground. No sooner do you pick it up than you spot a small sack of gold.;;;;;;;;;x
+EVTOPTA_jarls_looting.23;My lucky coin!;;;;;;;;;x
+EVTDESC_jarls_looting.24;You find a tiny statue of an fat buddha inside one of the houses. You don't think much of it until you turn around to leave, only to find a sack of coins you could swear wasn't there before.;;;;;;;;;x
+EVTOPTA_jarls_looting.24;A good luck charm? Wonderful!;;;;;;;;;x
+EVTDESC_jarls_looting.25;Your men have looted a local temple, and come back carrying a massive, gold-bound chest. You instruct them to open it, and inside you find an expertly-crafted sword, covered in Norse-like runes with the Hindu symbol for good luck in the center of the blade. You pick it up, swinging it about a few times to hear its song as it cuts the wind. This must be one of the finest swords ever created.;;;;;;;;;x
+EVTOPTA_jarls_looting.25;I shall call it...Thurmuth.;;;;;;;;;x
+EVTDESC_jarls_looting.26;As you walk among the dead enemy soldiers, you spot a blade that catches your fancy. Picking it up, you notice that it is brilliantly embedded with jewels and gold, and heavier than your normal old battle-axe. You decide to make it your new weapon.;;;;;;;;;x
+EVTOPTA_jarls_looting.26;I've got a curved sword. Curved. Sword.;;;;;;;;;x
+EVTDESC_jarls_looting.27;One of your soldiers finds a strange trinket in the looted holdings. From what you can tell, someone made a helmet and attached horns to it, perhaps as a joke. You put it on to the riotious laughter of your men, only to discover you can't remove it due to some otherwordly urge.;;;;;;;;;x
+EVTOPTA_jarls_looting.27;I...I must wear this...;;;;;;;;;x
+EVTDESC_jarls_looting.28;One of your men returns with something wrapped in colorful cloth. He hands it over and you tear the binding away to find a large sword with an ivory handle and sheath, inlaid with symbols of battle and conquest. While it may seem foppish, the sword is perfectly balanced and more than fit for battle.;;;;;;;;;x
+EVTOPTA_jarls_looting.28;It's beautiful.;;;;;;;;;x
+EVTDESC_jarls_looting.29;Several of your men come back carrying a large golden statue of the Indian god Shiva. They set it at your feet, asking what to do with it.;;;;;;;;;x
+EVTOPTA_jarls_looting.29;Melt it.;;;;;;;;;x
+EVTOPTB_jarls_looting.29;Keep it.;;;;;;;;;x
+EVTDESC_jarls_looting.30;The holding you looted contained a rather large archive of scrolls and books. Most of it was junk, but you did happen to find a massive tome with a brillaint trimmings. You open it it up, and instantly recognize that it is a very old Quran.;;;;;;;;;x
+EVTOPTA_jarls_looting.30;This will make a fine addition to my library!;;;;;;;;;x
+EVTDESC_jarls_looting.31;No longer just a viking, you have become known as a sea-king, a title reserved for only the strongest of raiders. Tales of your conquests are told from Scotland to Ceylon, and many wonder if you are even human.;;;;;;;;;x
+EVTOPTA_jarls_looting.31;Only [Root.Religion.GetRandomGodName] can judge me.;;;;;;;;;x
+EVTDESC_jarls_looting.32;Your men bring back pillage aplenty. As they march by, one of them walks up and hands you a large, dusty book. He tells you that he can't read, but he thought the book looked interesting, so he took it along with him to give to you. As he leaves, you crack open the tome and realize it's an ancient and masterfully illustrated Bible.;;;;;;;;;x
+EVTOPTA_jarls_looting.32;Knowledge is power.;;;;;;;;;x
+EVTDESC_jarls_looting.33;While you loot the house of one of the richer residents, you discover a beautiful vase of unerring quality. After a bit more searching, you find that there's an entire set! You take them with you as a prize.;;;;;;;;;x
+EVTOPTA_jarls_looting.33;The spoils of war!;;;;;;;;;x
