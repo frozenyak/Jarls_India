@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_donate_money_to_lodbroks"
+		texturefile = "gfx\\interface\\decision_icon_donate_to_holy_order.dds"
+	}
+	spriteType = {
+		name = "GFX_expel_the_lodbroks"
+		texturefile = "gfx\\interface\\decision_icon_expel_holy_order.dds"
+	}
+	spriteType = {
+		name = "GFX_form_the_lodbroks"
+		texturefile = "gfx\\interface\\decision_icon_organize_varangian_guard.dds"
+	}
+	spriteType = {
+		name = "GFX_convert_to_spouse_hindu_norse"
+		texturefile = "gfx\\interface\\decision_icon_convert_to_spouse_indian.dds"
+	}
+	spriteType = {
+		name = "GFX_become_emperor_of_india"
+		texturefile = "gfx\\interface\\decision_icon_become_samrat_chakravartin.dds"
+	}
+}

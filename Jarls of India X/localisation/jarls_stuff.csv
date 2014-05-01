@@ -31,7 +31,13 @@ duchy_of_hindu_norse;Jarldom of;Comté de;Jarltum von;;Jarldom de;;;;;;;;;x
 EVTNAME_jarls_coronation.1;The New Scandinavia;;;;;;;;;x
 EVTDESC_jarls_coronation.1;"It has been century upon century since Great India was last unified under a single banner. Not even Alexander the Great could fully conquer it, but we Northmen have accomplished what he could not. I, [Root.GetTitledFirstName], crown myself Emperor of all India, in the name Odin, in the name of Thor and in the name of Freyr."\n\nWhere they were once mere raiders, the vikings have elevated themselves to the absolute rulers of the faraway subcontinent. One of their own, [Root.GetTitledFirstName], has been declared Emperor of India, a title not truly held since Ashoka the Great. God help us all.;;;;;;;;;x
 EVTOPTA_jarls_coronation.1;For Odin! For Thor! For Freyr!;;;;;;;;;x
+######;#;#;#;;#;;;;;;;;;x
 lodbroks_organized;The Lodbrok Order is formed.;;Die Lodbroks wurde aufgestellt.;;;;;;;;;;;x
+expel_the_lodbroks;Expel the Lodbroks;Expulser les Lodbroks;Vertreibt die Lodbroks;;Expulsad a los Lodbroks;;;;;;;;x;;;;;;;;;;;;;
+expel_the_lodbroks_desc;I can drive the Lodbroks from my realm and seize their castles. However, it is a very impious thing to do...;Je peux expulser les Lodbroks de mon territoire et prendre possession de leurs châteaux. Ce serait par contre un acte très impie...;Ich kann die Lodbroks aus meinem Reich vertreiben und mir ihre Burgen aneignen. Das ist jedoch eine sehr unfromme Tat...;;Puedo echar a los Lodbroks de mi reino y apoderarme de sus castillos. Sin embargo, es una acción muy impía...;;;;;;;;;x######;#;#;#;;#;;;;;;;;;x
+donate_money_to_lodbroks;Donate 300¤ to the Lodbroks;Donner 300¤ aux Lodbroks;Spende 300¤ an die Lodbroks;;Donar 300¤ a los Lodbroks;;;;;;;;;x
+donate_money_to_lodbroks_desc;I can donate money to the Lodbroks in exchange for [Player.Religion.GetPietyName] and lifelong respect from the priesthood.;Je peux donner de l'argent aux Lodbroks en échange de [Player.Religion.GetPietyName] et du respect permanent du clergé.;Mit einer Geldspende an die Lodbroks kann ich [Player.Religion.GetPietyName] und den lebenslangen Respekt der Priesterschaft erlangen.;;Puedo hacer una donación a los Lodbroks. A cambio obtendré la [Player.Religion.GetPietyName] y el respeto de por vida del sacerdocio.;;;;;;;;;x
+expelled_d_lodbroks;Expelled the Lodbroks;Lodbroks expulsés;Die Lodbroks vertrieben;;Lodbroks expulsados;;;;;;;;;x
 ######;#;#;#;;#;;;;;;;;;x
 EVTOPTB_RoI_1177X;Now for the sacrifice...;;Et maintenant, le sacrifice...;Und jetzt zu den Opfern...;;Ahora, para el sacrificio...;;;;;x
 ######;#;#;#;;#;;;;;;;;;x

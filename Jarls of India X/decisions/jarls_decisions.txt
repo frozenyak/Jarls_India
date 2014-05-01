@@ -213,7 +213,8 @@ decisions = {
 			prisoner = no
 			NOT = {	trait = incapable }
 			war = no
-			piety = 1000
+			wealth = 500
+			piety = 500
 			OR = {
 				has_landed_title = k_sindh
 				has_landed_title = k_punjab
@@ -237,8 +238,8 @@ decisions = {
 		}
 		effect = {
 			set_global_flag = lodbroks_founded
-			piety = -1000
-			#narrative_event = { id = jarls_religion.3 }
+			wealth = -500
+			piety = -500
 			activate_title = { title = d_lodbroks status = yes }
 			hidden_tooltip = {
 				narrative_event = { id = jarls_religion.5 }
@@ -252,6 +253,7 @@ decisions = {
 					trait = skilled_tactician
 				}
 				new_character = {
+					wealth = 300
 					d_lodbroks = {
 						grant_title = PREV
 					}
@@ -278,6 +280,150 @@ decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	
+	expel_the_lodbroks = {
+		potential = {
+			ai = no
+			OR = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+				religion = hindu_norse
+			}
+			higher_tier_than = DUKE
+			independent = yes
+			is_title_active = d_lodbroks
+			NOT = { has_character_modifier = expelled_d_lodbroks }
+			
+			any_realm_province = {
+				any_province_lord = {
+					d_lodbroks = {
+						holder_scope = {
+							OR = {
+								character = PREVPREV
+								is_vassal_or_below = PREVPREV
+							}
+						}
+					}
+				}
+			}
+			
+			has_dlc = "Sons of Abraham"
+		}
+		
+		allow = {
+			piety = 1000
+		}
+		
+		effect = {
+			piety = -1000
+			
+			religion_authority = {
+				modifier = holy_order_expelled
+				years = 20
+			}
+			
+			hidden_tooltip = {
+				d_lodbroks = {
+					holder_scope = {
+						character_event = {
+							id = jarls_religion.60
+						}
+					}
+				}
+				add_character_modifier = {
+					name = expelled_d_lodbroks
+					duration = -1
+					inherit = yes
+				}
+			}
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	donate_money_to_lodbroks = {
+		potential = {
+			OR = {
+				religion = norse_pagan
+				religion = norse_pagan_reformed
+				religion = hindu_norse
+			}
+			
+			is_title_active = d_lodbroks
+			
+			has_dlc = "Sons of Abraham"
+			
+			d_lodbroks = {
+				holder_scope = {
+					liege = {
+						NOT = { character = ROOT }
+					}
+				}
+			}
+			
+			NOT = { has_character_modifier = expelled_d_lodbroks }
+			any_demesne_province = {
+				OR = {
+					empire = { title = e_rajastan }
+					empire = { title = e_bengal }
+					empire = { title = e_deccan }
+				}
+			}
+		}
+		
+		allow = {
+			wealth = 300
+		}
+		
+		effect = {
+			if = {
+				limit = { 
+					NOT = { has_character_modifier = donated_to_holy_order }
+				}
+				add_character_modifier = {
+					name = donated_to_holy_order
+					duration = -1
+				}
+			}
+			
+			hidden_tooltip = {
+				d_lodbroks = {
+					holder_scope = {
+						character_event = {
+							id = jarls_religion.40
+						}
+					}
+				}
+			}
+			
+			wealth = -300
+			piety = 300
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					piety = 1000
+					NOT = { wealth = 1000 }
+				}
+			}
+			modifier = {
+				factor = 0.002 # Slow it down
+			}
 		}
 	}
 	

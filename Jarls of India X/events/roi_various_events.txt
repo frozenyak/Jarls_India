@@ -3825,8 +3825,9 @@ character_event = {
 				religion = norse_pagan
 				religion = norse_pagan_reformed
 			}
+			trait = cruel
 		}
-		tooltip_info = diplomacy
+		tooltip_info = cruel
 		custom_tooltip = { text = realm_jains_upset }
 		hidden_tooltip = {
 			any_realm_character  = {
@@ -3834,7 +3835,7 @@ character_event = {
 				opinion = {
 					who = ROOT
 					years = 10
-					modifier = opinion_upset
+					modifier = opinion_horrified
 				}
 			}
 		}

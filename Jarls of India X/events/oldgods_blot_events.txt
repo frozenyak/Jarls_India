@@ -605,7 +605,7 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67003 } }
-				}
+			}
 			FROM = { character_event = { id = TOG.646 } }
 		}
 	}
@@ -807,7 +807,7 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67003 } }
-				}
+			}
 			FROM = { character_event = { id = TOG.647 } }
 		}
 	}
@@ -995,7 +995,7 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67002 } }
-				}
+			}
 			if = {
 				limit = { # Hindu
 					religion = hindu

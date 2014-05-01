@@ -1,3 +1,7 @@
+X.7
+added missing decision icons
+creation of lodbroks cheaper
+can expell/donate to lodbroks
 X.6
 various fixes
 no jomviking related requests in india
