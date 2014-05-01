@@ -671,7 +671,10 @@ character_event = {
 		tooltip_info = zealous
 		trigger = {
 			trait = zealous
-			religion = hindu
+			OR = {
+				religion = hindu
+				religion = hindu_norse
+			}
 			NOT = {
 				trait = lunatic
 				trait = possessed
@@ -685,13 +688,13 @@ character_event = {
 		}
 			
 	}
-		option = {
+	option = {
 		name = EVTOPTZ2_TOG_501
 		tooltip_info = viking
 		trigger = {
 			trait = viking
 			NOT = {
-				culture = Indo-Norse
+				culture = indo_norse
 				trait = lunatic
 				trait = possessed
 				trait = imbecile
@@ -704,15 +707,15 @@ character_event = {
 		}
 			
 	}
-			option = {
+	option = {
 		name = EVTOPTZ3_TOG_501
 		tooltip_info = viking
 		trigger = {
 			OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
+				religion = norse_pagan
+				religion = norse_pagan_reformed
 			}
-			culture = Indo-Norse
+			culture = indo_norse
 			trait = viking
 			NOT = {
 				trait = lunatic
@@ -1688,10 +1691,10 @@ character_event = {
 		OR = {
 			culture = norse
 			religion = norse_pagan
+			religion = hindu_norse
 		}
 		year = 1150
 		NOT = { has_character_flag = runestones_halted }
-		NOT = { culture = Indo-Norse }
 	}
 	
 	mean_time_to_happen = {

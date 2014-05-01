@@ -645,6 +645,7 @@ castle = {
 				OR = {
 					culture_group = north_germanic
 					culture = saxon
+					culture = indo_norse
 				}
 			}
 		}
@@ -665,6 +666,7 @@ castle = {
 				OR = {
 					culture_group = north_germanic
 					culture = saxon
+					culture = indo_norse
 				}
 			}
 		}
@@ -685,6 +687,7 @@ castle = {
 				OR = {
 					culture_group = north_germanic
 					culture = saxon
+					culture = indo_norse
 				}
 			}
 		}
@@ -705,6 +708,7 @@ castle = {
 				OR = {
 					culture_group = north_germanic
 					culture = saxon
+					culture = indo_norse
 				}
 			}
 		}
@@ -1403,7 +1407,7 @@ castle = {
 		potential = {
 			FROM = {
 				OR = {
-					culture = Indo-Norse
+					culture = indo_norse
 					culture_group = indo_aryan_group
 					culture_group = dravidian_group
 				}
@@ -1424,7 +1428,7 @@ castle = {
 		potential = {
 			FROM = {
 				OR = {
-					culture = Indo-Norse
+					culture = indo_norse
 					culture_group = indo_aryan_group
 					culture_group = dravidian_group
 				}
@@ -1446,7 +1450,7 @@ castle = {
 		potential = {
 			FROM = {
 				OR = {
-					culture = Indo-Norse
+					culture = indo_norse
 					culture_group = indo_aryan_group
 					culture_group = dravidian_group
 				}
@@ -1468,7 +1472,7 @@ castle = {
 		potential = {
 			FROM = {
 				OR = {
-					culture = Indo-Norse
+					culture = indo_norse
 					culture_group = indo_aryan_group
 					culture_group = dravidian_group
 				}

@@ -7,7 +7,7 @@
 
 # Written by Henrik Eklund
 
-namespace = TOG_IND
+namespace = jarls_sacking
 
 #######################
 # Norse sack cities #
@@ -15,9 +15,9 @@ namespace = TOG_IND
 
 # Norse sack Kiev
 narrative_event = {
-	id = TOG_IND.1
-	title = EVTNAME_TOG_IND_001
-	desc = EVTDESC_TOG_IND_001
+	id = jarls_sacking.101
+	title = EVTNAME_jarls_sacking.101
+	desc = EVTDESC_jarls_sacking.101
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -26,16 +26,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Novgorod
 narrative_event = {
-	id = TOG_IND.2
-	title = EVTNAME_TOG_IND_002
-	desc = EVTDESC_TOG_IND_002
+	id = jarls_sacking.102
+	title = EVTNAME_jarls_sacking.102
+	desc = EVTDESC_jarls_sacking.102
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -44,16 +44,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Krakow
 narrative_event = {
-	id = TOG_IND.3
-	title = EVTNAME_TOG_IND_003
-	desc = EVTDESC_TOG_IND_003
+	id = jarls_sacking.103
+	title = EVTNAME_jarls_sacking.103
+	desc = EVTDESC_jarls_sacking.103
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -62,16 +62,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Aachen
 narrative_event = {
-	id = TOG_IND.4
-	title = EVTNAME_TOG_IND_004
-	desc = EVTDESC_TOG_IND_004
+	id = jarls_sacking.104
+	title = EVTNAME_jarls_sacking.104
+	desc = EVTDESC_jarls_sacking.104
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -80,16 +80,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Paris
 narrative_event = {
-	id = TOG_IND.5
-	title = EVTNAME_TOG_IND_005
-	desc = EVTDESC_TOG_IND_005
+	id = jarls_sacking.105
+	title = EVTNAME_jarls_sacking.105
+	desc = EVTDESC_jarls_sacking.105
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -98,16 +98,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack London
 narrative_event = {
-	id = TOG_IND.6
-	title = EVTNAME_TOG_IND_006
-	desc = EVTDESC_TOG_IND_006
+	id = jarls_sacking.106
+	title = EVTNAME_jarls_sacking.106
+	desc = EVTDESC_jarls_sacking.106
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -116,16 +116,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Rome
 narrative_event = {
-	id = TOG_IND.7
-	title = EVTNAME_TOG_IND_007
-	desc = EVTDESC_TOG_IND_007
+	id = jarls_sacking.107
+	title = EVTNAME_jarls_sacking.107
+	desc = EVTDESC_jarls_sacking.107
 	picture = GFX_evt_rome_falls
 	border = GFX_event_narrative_frame_war
 	
@@ -134,16 +134,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Venice
 narrative_event = {
-	id = TOG_IND.8
-	title = EVTNAME_TOG_IND_008
-	desc = EVTDESC_TOG_IND_008
+	id = jarls_sacking.108
+	title = EVTNAME_jarls_sacking.108
+	desc = EVTDESC_jarls_sacking.108
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -152,16 +152,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Constantinople
 narrative_event = {
-	id = TOG_IND.9
-	title = EVTNAME_TOG_IND_009
-	desc = EVTDESC_TOG_IND_009
+	id = jarls_sacking.109
+	title = EVTNAME_jarls_sacking.109
+	desc = EVTDESC_jarls_sacking.109
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -170,16 +170,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Lisbon
 narrative_event = {
-	id = TOG_IND.10
-	title = EVTNAME_TOG_IND_010
-	desc = EVTDESC_TOG_IND_010
+	id = jarls_sacking.110
+	title = EVTNAME_jarls_sacking.110
+	desc = EVTDESC_jarls_sacking.110
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -188,16 +188,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Smolensk
 narrative_event = {
-	id = TOG_IND.11
-	title = EVTNAME_TOG_IND_011
-	desc = EVTDESC_TOG_IND_011
+	id = jarls_sacking.111
+	title = EVTNAME_jarls_sacking.111
+	desc = EVTDESC_jarls_sacking.111
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -206,16 +206,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Prague
 narrative_event = {
-	id = TOG_IND.12
-	title = EVTNAME_TOG_IND_012
-	desc = EVTDESC_TOG_IND_012
+	id = jarls_sacking.112
+	title = EVTNAME_jarls_sacking.112
+	desc = EVTDESC_jarls_sacking.112
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -224,16 +224,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Vienna
 narrative_event = {
-	id = TOG_IND.13
-	title = EVTNAME_TOG_IND_013
-	desc = EVTDESC_TOG_IND_013
+	id = jarls_sacking.113
+	title = EVTNAME_jarls_sacking.113
+	desc = EVTDESC_jarls_sacking.113
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -242,16 +242,16 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }
 
 # Norse sack Esztergom
 narrative_event = {
-	id = TOG_IND.14
-	title = EVTNAME_TOG_IND_014
-	desc = EVTDESC_TOG_IND_014
+	id = jarls_sacking.114
+	title = EVTNAME_jarls_sacking.114
+	desc = EVTDESC_jarls_sacking.114
 	picture = GFX_evt_mongols_pillage_oldgods
 	border = GFX_event_narrative_frame_war
 	
@@ -260,7 +260,7 @@ narrative_event = {
 	hide_from = yes
 	
 	option = {
-		name = EVTOPTA_TOG_IND_001
+		name = EVTOPTA_jarls_sacking.101
 		prestige = 100
 	}
 }

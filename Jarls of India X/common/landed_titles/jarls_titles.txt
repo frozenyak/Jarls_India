@@ -16,9 +16,9 @@ d_lodbroks = {
 	holy_order = yes
 	
 	# Parent Religion 
-	religion = norse_pagan_reformed
+	religion = norse_pagan
 	
-	culture = Indo-Norse
+	culture = indo_norse
 	
 	# Cannot be held as a secondary title
 	primary = yes

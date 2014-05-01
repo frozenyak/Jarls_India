@@ -759,21 +759,21 @@ on_siege_won_leader = {
 		60120 # Mongols sack Cairo
 		60121 # Mongols sack Mecca
 		88005 # Mongols sack city near the Hashshashin
-		norse_sacking.00 # Norse sack krishnajanmabhoomi
-		norse_sacking.01 # Norse sack dwarakadheesh
-		norse_sacking.02 # Norse sack mahakaleshwar
-		norse_sacking.03 # Norse sack ram_janmabhoomi
-		norse_sacking.04 # Norse sack varanasi
-		norse_sacking.05 # Norse sack sarnath
-		norse_sacking.06 # Norse sack sanchi
-		norse_sacking.07 # Norse sack gaya
-		norse_sacking.08 # Norse sack ellora
-		norse_sacking.09 # Norse sack oddiyana
-		norse_sacking.10 # Norse sack rajrappa
-		norse_sacking.11 # Norse sack shravanabelagola
-		norse_sacking.12 # Norse sack vadnagar
-		norse_sacking.13 # Norse sack girnar
-		norse_sacking.14 # Norse sack bhillamala
+		jarls_sacking.00 # Norse sack krishnajanmabhoomi
+		jarls_sacking.01 # Norse sack dwarakadheesh
+		jarls_sacking.02 # Norse sack mahakaleshwar
+		jarls_sacking.03 # Norse sack ram_janmabhoomi
+		jarls_sacking.04 # Norse sack varanasi
+		jarls_sacking.05 # Norse sack sarnath
+		jarls_sacking.06 # Norse sack sanchi
+		jarls_sacking.07 # Norse sack gaya
+		jarls_sacking.08 # Norse sack ellora
+		jarls_sacking.09 # Norse sack oddiyana
+		jarls_sacking.10 # Norse sack rajrappa
+		jarls_sacking.11 # Norse sack shravanabelagola
+		jarls_sacking.12 # Norse sack vadnagar
+		jarls_sacking.13 # Norse sack girnar
+		jarls_sacking.14 # Norse sack bhillamala
 	}
 	random_events = {
 		300 = 0

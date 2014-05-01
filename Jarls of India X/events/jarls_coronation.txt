@@ -1,0 +1,19 @@
+namespace = jarls_coronation
+
+#Norse emperor coronation
+
+narrative_event = {
+	id = jarls_coronation.1
+	title = EVTNAME_jarls_coronation.1
+	desc = EVTDESC_jarls_coronation.1
+	picture = "GFX_evt_viking_battle_oldgods"
+	#border = "GFX_event_narrative_frame_religion"
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA_jarls_coronation.1" # For Odin!
+	}
+}

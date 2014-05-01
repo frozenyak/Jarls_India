@@ -156,45 +156,6 @@ north_germanic = {
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
 	}
-	Indo-Norse = {
-		graphical_culture = indonorsegfx
-		
-		color = { 0.5 0.8 0.5 }
-		
-		# Þ 222 þ 254 Ð 208 ð 240 æ
-		
-		male_names = {
-			Ale Alvar_Alf Anlauvar_Anlaufr Anundar_Anund Arnabiyorna_Arnbjörn Arnagirim_Arngrimr Arne Arnavasta_Arnfast Asbiyorna_Asbjörn Bagge Baldar_Balder Barid Berse_Bersi Bertil Birger Biyorna_Beorn Bo Borkavard_Borkvard Botulvar_Botulfr Brage_Brage Budhile_BuðliDag Dan Dayir_Dyre 
-			Ayliv_Eilif Egill_Egil Emunda_Emund Aynar_Einar Ayrikar_Erik Eskild Phalki_Falki Phaste_Faste Philip_Philip Phredrik_Frederick Phirirek_Frirek Phorodhe_Frode Phereyar_Frej Pholki_Folke Gandalvar_Gandalfr Geir_Geirr Jorj_George Gunupa_Gnupa Gorma_Gorm Greger_Gregory Grimar_Grim Gudhviridh_Godfrey Gudhmundar_Gudmund Gudrodhar_Gudröd Gunnar Hakon Halesten_Halsten Haraldar_Harold Haukar_Haukr Helge Hemming Holomger_Holmger Ravan_Hrafn Rolvar_Rolf Rane_Hrane Hestein_Hæsteinn Hiyalmar_Hjalmar Rodhogar_Hroðgar Rodhulvar_Hroðulfr Rorekar_Rurik Hising_Hysing Inge Ingemar Ingiyald_Ingjald Ivar_Ivar Yedvard_Edward Yon_John Karil_Charles Kettil Kettilmund Kiyartan_Kjartan Klas Kunut_Knut Kol Kolbiyorna_Kolbjörn Oddor_Odd Olavar_Olaf Ormar_Orm Ottar_Ottar Revar_Refr Revil_Refil Ragnar Rikulvar_Rikulfr Rogonvaldar_Ragnvald Sikule_Skule Sonore_Snorri Sigbiyorna_Sigbjörn Sigtirig_Sigtrygg Sigurdhar_Sigurd Istarkadhar_Starkad Istein_Sten Isturla_Sturla Istirbiyorna_Styrbjörn Istirkar_Styrkar Sune Svein_Sven Sverker Semundar_Sämund Solve_Sölve Sorkever_Sörkver Tiyudmunda_Tjudmund Toke_Toke Tolir Thorbiyorna_Torbjörn Thorvin_Torfinn Thorbarandar_Torbrand Thordar_Tord Thorgil_Torkel Thorestein_Torsten Thorolvar_Thorolf Toste Totil Trigaba_Tryggve Tike_Tyke Ulvar_Ulf Vagan_Vagn Valdemar_Vladimir Ake_Åke Ingvar_Ingvar Orvar_Orvar Oistein_Eysteinn
-		}
-		female_names = {
-			Aleta Alvilda_Alfhild Alviridha_Alfridh Alvora_Alvör Anna_Anna Asa_Åsa Aslauga_Aslaug Asta_Asta Astirida_Astrid Beyata_Beata Birigitta_Brigid Biyorga_Björg Bodila Bothilda_Bothild Sesiliya_Cecilia Edela_Edla Elina_Elin Elisabeta_Elizabeth Phereya_Freja Gerdhara_Gerðr Golodha_Gloð Grima Gunahilda_Gunhild Gurli Gudhuruna_Gudrun Giyala_Gyla Giridha_Gyrið Gidha_Gytha Havridha_Hafrid Halla Helena_Helen Holomvirida_Holmfrid Iliyana_Iliana Inga_Inga Ingvirida_Ingfrid Ingebiyorga_Ingeborg Ingiyerdha_Ingegerd Ingirida_Ingrid Karina_Catherine Katarina_Catherine Kraka Kristina_Christina Linda Maira_Maer
-			Malamviridha_Malmfrid Margareta_Margaret Mariya_Maria Rikissa Roginviridha_Ragnfrid Roginhilda_Ragnhild Saga Sara_Sarah Siva_Sif Sigrida_Sigrid Sikulda Soviya_Sophia
-			Svanhilda_Svanhild Ulvilda_Ulvhilde Vigidisa_Vigdis Ilba_Ylva Irsa_Yrsa Thora_Thora Thoridisa_Thordis Thira_Thyra 
-		}
-		
-		dukes_called_kings = yes
-		baron_titles_hidden = yes
-		count_titles_hidden = yes
-		
-		from_dynasty_prefix = "af "
-		
-		male_patronym = "sson"
-		female_patronym = "sdottir"
-		prefix = no # The patronym is added as a suffix
-		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 0
-		father_name_chance = 10
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 50
-		mother_name_chance = 10
-
-		modifier = default_culture_modifier
-	}
 }
 
 central_germanic = {
@@ -2676,6 +2637,46 @@ indo_aryan_group = {
 		mat_grm_name_chance = 25
 		mother_name_chance = 5
 		
+		modifier = default_culture_modifier
+	}
+	indo_norse = {
+		graphical_culture = indonorsegfx
+		second_graphical_culture = westerngfx # Fallback type
+		
+		color = { 0.5 0.8 0.5 }
+		
+		# Þ 222 þ 254 Ð 208 ð 240 æ
+		
+		male_names = {
+			Ale Alvar_Alf Anlauvar_Anlaufr Anundar_Anund Arnabiyorna_Arnbjörn Arnagirim_Arngrimr Arne Arnavasta_Arnfast Asbiyorna_Asbjörn Bagge Baldar_Balder Barid Berse_Bersi Bertil Birger Biyorna_Beorn Bo Borkavard_Borkvard Botulvar_Botulfr Brage_Brage Budhile_BuðliDag Dan Dayir_Dyre 
+			Ayliv_Eilif Egill_Egil Emunda_Emund Aynar_Einar Ayrikar_Erik Eskild Phalki_Falki Phaste_Faste Philip_Philip Phredrik_Frederick Phirirek_Frirek Phorodhe_Frode Phereyar_Frej Pholki_Folke Gandalvar_Gandalfr Geir_Geirr Jorj_George Gunupa_Gnupa Gorma_Gorm Greger_Gregory Grimar_Grim Gudhviridh_Godfrey Gudhmundar_Gudmund Gudrodhar_Gudröd Gunnar Hakon Halesten_Halsten Haraldar_Harold Haukar_Haukr Helge Hemming Holomger_Holmger Ravan_Hrafn Rolvar_Rolf Rane_Hrane Hestein_Hæsteinn Hiyalmar_Hjalmar Rodhogar_Hroðgar Rodhulvar_Hroðulfr Rorekar_Rurik Hising_Hysing Inge Ingemar Ingiyald_Ingjald Ivar_Ivar Yedvard_Edward Yon_John Karil_Charles Kettil Kettilmund Kiyartan_Kjartan Klas Kunut_Knut Kol Kolbiyorna_Kolbjörn Oddor_Odd Olavar_Olaf Ormar_Orm Ottar_Ottar Revar_Refr Revil_Refil Ragnar Rikulvar_Rikulfr Rogonvaldar_Ragnvald Sikule_Skule Sonore_Snorri Sigbiyorna_Sigbjörn Sigtirig_Sigtrygg Sigurdhar_Sigurd Istarkadhar_Starkad Istein_Sten Isturla_Sturla Istirbiyorna_Styrbjörn Istirkar_Styrkar Sune Svein_Sven Sverker Semundar_Sämund Solve_Sölve Sorkever_Sörkver Tiyudmunda_Tjudmund Toke_Toke Tolir Thorbiyorna_Torbjörn Thorvin_Torfinn Thorbarandar_Torbrand Thordar_Tord Thorgil_Torkel Thorestein_Torsten Thorolvar_Thorolf Toste Totil Trigaba_Tryggve Tike_Tyke Ulvar_Ulf Vagan_Vagn Valdemar_Vladimir Ake_Åke Ingvar_Ingvar Orvar_Orvar Oistein_Eysteinn
+		}
+		female_names = {
+			Aleta Alvilda_Alfhild Alviridha_Alfridh Alvora_Alvör Anna_Anna Asa_Åsa Aslauga_Aslaug Asta_Asta Astirida_Astrid Beyata_Beata Birigitta_Brigid Biyorga_Björg Bodila Bothilda_Bothild Sesiliya_Cecilia Edela_Edla Elina_Elin Elisabeta_Elizabeth Phereya_Freja Gerdhara_Gerðr Golodha_Gloð Grima Gunahilda_Gunhild Gurli Gudhuruna_Gudrun Giyala_Gyla Giridha_Gyrið Gidha_Gytha Havridha_Hafrid Halla Helena_Helen Holomvirida_Holmfrid Iliyana_Iliana Inga_Inga Ingvirida_Ingfrid Ingebiyorga_Ingeborg Ingiyerdha_Ingegerd Ingirida_Ingrid Karina_Catherine Katarina_Catherine Kraka Kristina_Christina Linda Maira_Maer
+			Malamviridha_Malmfrid Margareta_Margaret Mariya_Maria Rikissa Roginviridha_Ragnfrid Roginhilda_Ragnhild Saga Sara_Sarah Siva_Sif Sigrida_Sigrid Sikulda Soviya_Sophia
+			Svanhilda_Svanhild Ulvilda_Ulvhilde Vigidisa_Vigdis Ilba_Ylva Irsa_Yrsa Thora_Thora Thoridisa_Thordis Thira_Thyra 
+		}
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdottir"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 0
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 10
+
 		modifier = default_culture_modifier
 	}
 }

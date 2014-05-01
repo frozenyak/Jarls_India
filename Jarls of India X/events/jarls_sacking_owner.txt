@@ -3,14 +3,14 @@
 # Norse India Events
 #
 ###################################
-namespace = norse_sacking
+namespace = jarls_sacking
 
 ### Norse sack Indian cities ###
 # Norse sack krishnajanmabhoomi
 narrative_event = {
-	id = norse_sacking.00
-	title = "EVTNAME_norse_sacking.00"
-	desc = "EVTDESC_norse_sacking.00"
+	id = jarls_sacking.00
+	title = "EVTNAME_jarls_sacking.00"
+	desc = "EVTDESC_jarls_sacking.00"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -28,7 +28,7 @@ narrative_event = {
 		FROM = { title = b_krishnajanmabhoomi }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -67,7 +67,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.00"
+		name = "EVTOPTA_jarls_sacking.00"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -78,9 +78,9 @@ narrative_event = {
 
 # Norse sack dwarakadheesh
 narrative_event = {
-	id = norse_sacking.01
-	title = "EVTNAME_norse_sacking.01"
-	desc = "EVTDESC_norse_sacking.01"
+	id = jarls_sacking.01
+	title = "EVTNAME_jarls_sacking.01"
+	desc = "EVTDESC_jarls_sacking.01"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -98,7 +98,7 @@ narrative_event = {
 		FROM = { title = b_dwarakadheesh }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -137,7 +137,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.01"
+		name = "EVTOPTA_jarls_sacking.01"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -148,9 +148,9 @@ narrative_event = {
 
 # Norse sack mahakaleshwar
 narrative_event = {
-	id = norse_sacking.02
-	title = "EVTNAME_norse_sacking.02"
-	desc = "EVTDESC_norse_sacking.02"
+	id = jarls_sacking.02
+	title = "EVTNAME_jarls_sacking.02"
+	desc = "EVTDESC_jarls_sacking.02"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -168,7 +168,7 @@ narrative_event = {
 		FROM = { title = b_mahakaleshwar }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -207,7 +207,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.02"
+		name = "EVTOPTA_jarls_sacking.02"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -218,9 +218,9 @@ narrative_event = {
 
 # Norse sack ram_janmabhoomi
 narrative_event = {
-	id = norse_sacking.03
-	title = "EVTNAME_norse_sacking.03"
-	desc = "EVTDESC_norse_sacking.03"
+	id = jarls_sacking.03
+	title = "EVTNAME_jarls_sacking.03"
+	desc = "EVTDESC_jarls_sacking.03"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -238,7 +238,7 @@ narrative_event = {
 		FROM = { title = b_ram_janmabhoomi }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -277,7 +277,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.03"
+		name = "EVTOPTA_jarls_sacking.03"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -288,9 +288,9 @@ narrative_event = {
 
 # Norse sack varanasi
 narrative_event = {
-	id = norse_sacking.04
-	title = "EVTNAME_norse_sacking.04"
-	desc = "EVTDESC_norse_sacking.04"
+	id = jarls_sacking.04
+	title = "EVTNAME_jarls_sacking.04"
+	desc = "EVTDESC_jarls_sacking.04"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -308,7 +308,7 @@ narrative_event = {
 		FROM = { title = b_varanasi }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -347,7 +347,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.04"
+		name = "EVTOPTA_jarls_sacking.04"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -358,9 +358,9 @@ narrative_event = {
 
 # Norse sack sarnath
 narrative_event = {
-	id = norse_sacking.05
-	title = "EVTNAME_norse_sacking.05"
-	desc = "EVTDESC_norse_sacking.05"
+	id = jarls_sacking.05
+	title = "EVTNAME_jarls_sacking.05"
+	desc = "EVTDESC_jarls_sacking.05"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -378,7 +378,7 @@ narrative_event = {
 		FROM = { title = b_sarnath }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -417,7 +417,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.05"
+		name = "EVTOPTA_jarls_sacking.05"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -428,9 +428,9 @@ narrative_event = {
 
 # Norse sack sanchi
 narrative_event = {
-	id = norse_sacking.06
-	title = "EVTNAME_norse_sacking.06"
-	desc = "EVTDESC_norse_sacking.06"
+	id = jarls_sacking.06
+	title = "EVTNAME_jarls_sacking.06"
+	desc = "EVTDESC_jarls_sacking.06"
 	major = yes
 	
 	picture = "GFX_evt_sanchi_falls"
@@ -445,10 +445,10 @@ narrative_event = {
 			liege = { has_landed_title = e_norse_india }
 			top_liege = { has_landed_title = e_norse_india }
 		}
-		FROM = { title = b_roma }
+		FROM = { title = b_sanchi }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -487,7 +487,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.06"
+		name = "EVTOPTA_jarls_sacking.06"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -498,9 +498,9 @@ narrative_event = {
 
 # Norse sack gaya
 narrative_event = {
-	id = norse_sacking.07
-	title = "EVTNAME_norse_sacking.07"
-	desc = "EVTDESC_norse_sacking.07"
+	id = jarls_sacking.07
+	title = "EVTNAME_jarls_sacking.07"
+	desc = "EVTDESC_jarls_sacking.07"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -515,10 +515,10 @@ narrative_event = {
 			liege = { has_landed_title = e_norse_india }
 			top_liege = { has_landed_title = e_norse_india }
 		}
-		FROM = { title = b_venezia }
+		FROM = { title = b_gaya }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -557,7 +557,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.07"
+		name = "EVTOPTA_jarls_sacking.07"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -568,9 +568,9 @@ narrative_event = {
 
 # Norse sack ellora
 narrative_event = {
-	id = norse_sacking.08
-	title = "EVTNAME_norse_sacking.08"
-	desc = "EVTDESC_norse_sacking.08"
+	id = jarls_sacking.08
+	title = "EVTNAME_jarls_sacking.08"
+	desc = "EVTDESC_jarls_sacking.08"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -588,7 +588,7 @@ narrative_event = {
 		FROM = { title = b_ellora }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -627,7 +627,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.08"
+		name = "EVTOPTA_jarls_sacking.08"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -638,9 +638,9 @@ narrative_event = {
 
 # Norse sack oddiyana
 narrative_event = {
-	id = norse_sacking.09
-	title = "EVTNAME_norse_sacking.09"
-	desc = "EVTDESC_norse_sacking.09"
+	id = jarls_sacking.09
+	title = "EVTNAME_jarls_sacking.09"
+	desc = "EVTDESC_jarls_sacking.09"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -655,10 +655,10 @@ narrative_event = {
 			liege = { has_landed_title = e_norse_india }
 			top_liege = { has_landed_title = e_norse_india }
 		}
-		FROM = { title = b_lisboa }
+		FROM = { title = b_oddiyana }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -697,7 +697,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.09"
+		name = "EVTOPTA_jarls_sacking.09"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -708,9 +708,9 @@ narrative_event = {
 
 # Norse sack rajrappa
 narrative_event = {
-	id = norse_sacking.10
-	title = "EVTNAME_norse_sacking.10"
-	desc = "EVTDESC_norse_sacking.10"
+	id = jarls_sacking.10
+	title = "EVTNAME_jarls_sacking.10"
+	desc = "EVTDESC_jarls_sacking.10"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -728,7 +728,7 @@ narrative_event = {
 		FROM = { title = b_rajrappa }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -767,7 +767,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.10"
+		name = "EVTOPTA_jarls_sacking.10"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -778,9 +778,9 @@ narrative_event = {
 
 # Norse sack shravanabelagola
 narrative_event = {
-	id = norse_sacking.11
-	title = "EVTNAME_norse_sacking.11"
-	desc = "EVTDESC_norse_sacking.11"
+	id = jarls_sacking.11
+	title = "EVTNAME_jarls_sacking.11"
+	desc = "EVTDESC_jarls_sacking.11"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -795,10 +795,10 @@ narrative_event = {
 			liege = { has_landed_title = e_norse_india }
 			top_liege = { has_landed_title = e_norse_india }
 		}
-		FROM = { title = b_praha }
+		FROM = { title = b_shravanabelagola }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -837,7 +837,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.11"
+		name = "EVTOPTA_jarls_sacking.11"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -848,9 +848,9 @@ narrative_event = {
 
 # Norse sack vadnagar
 narrative_event = {
-	id = norse_sacking.12
-	title = "EVTNAME_norse_sacking.12"
-	desc = "EVTDESC_norse_sacking.12"
+	id = jarls_sacking.12
+	title = "EVTNAME_jarls_sacking.12"
+	desc = "EVTDESC_jarls_sacking.12"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -865,10 +865,10 @@ narrative_event = {
 			liege = { has_landed_title = e_norse_india }
 			top_liege = { has_landed_title = e_norse_india }
 		}
-		FROM = { title = b_wien }
+		FROM = { title = b_vadnagar }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -907,7 +907,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.12"
+		name = "EVTOPTA_jarls_sacking.12"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -918,9 +918,9 @@ narrative_event = {
 
 # Norse sack girnar
 narrative_event = {
-	id = norse_sacking.13
-	title = "EVTNAME_norse_sacking.13"
-	desc = "EVTDESC_norse_sacking.13"
+	id = jarls_sacking.13
+	title = "EVTNAME_jarls_sacking.13"
+	desc = "EVTDESC_jarls_sacking.13"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -938,7 +938,7 @@ narrative_event = {
 		FROM = { title = b_girnar }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -977,7 +977,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.13"
+		name = "EVTOPTA_jarls_sacking.13"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {
@@ -988,9 +988,9 @@ narrative_event = {
 
 # Norse sack bhillamala
 narrative_event = {
-	id = norse_sacking.14
-	title = "EVTNAME_norse_sacking.14"
-	desc = "EVTDESC_norse_sacking.14"
+	id = jarls_sacking.14
+	title = "EVTNAME_jarls_sacking.14"
+	desc = "EVTDESC_jarls_sacking.14"
 	major = yes
 	
 	picture = "GFX_evt_mongols"
@@ -1008,7 +1008,7 @@ narrative_event = {
 		FROM = { title = b_bhillamala }
 		OR = {
 			culture = norse
-			culture = indo-norse
+			culture = indo_norse
 		}
 		NOT = {
 			FROM = {
@@ -1047,7 +1047,7 @@ narrative_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA_norse_sacking.14"
+		name = "EVTOPTA_jarls_sacking.14"
 		trigger = { NOT = { religion_group = muslim } }
 	}
 	option = {

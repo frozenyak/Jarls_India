@@ -273,6 +273,7 @@ decisions = {
 					empire = { title = e_rajastan }
 					empire = { title = e_bengal }
 					empire = { title = e_deccan }
+					#empire = { title = e_norse_india }
 				}
 			}
 			NOT = { has_character_flag = do_not_disturb }
@@ -592,11 +593,12 @@ decisions = {
 				culture_group = north_germanic
 				religion = norse_pagan
 				religion = norse_pagan_reformed
+				religion = hindu_norse
 			}
 			NOT = {	has_character_flag = commissioned_runestone }
 			OR = {
 				NOT = { year = 1150 }
-				culture = Indo-Norse
+				culture = indo_norse
 			}
 		}
 		allow = {
@@ -710,6 +712,7 @@ decisions = {
 			OR = {
 				religion = norse_pagan
 				religion = norse_pagan_reformed
+				religion = hindu_norse
 			}
 			NOT = { has_character_modifier = held_blot_timer }
 			NOT = {	has_character_flag = holding_blot }
@@ -1490,11 +1493,15 @@ decisions = {
 			is_ruler = yes
 			is_feudal = yes
 			prisoner = no
-			religion = hindu
+			OR = {
+				religion = hindu
+				religion = hindu_norse
+			}
 			NOT = { trait = incapable }
 			OR = {
 				has_character_modifier = patron_kali
 				county = { de_jure_liege = e_bengal	}
+				religion = hindu_norse
 			}
 			NOT = {
 				has_character_modifier = holding_diwali_feast
@@ -1583,8 +1590,9 @@ decisions = {
 			is_ruler = yes
 			is_feudal = yes
 			prisoner = no
-			OR = { culture = Indo-Norse
-			religion_group = indian_group
+			OR = { 
+				culture = indo_norse
+				religion_group = indian_group
 			}
 			NOT = { has_character_flag = looking_for_guru }
 			NOT = { has_character_flag = found_guru }

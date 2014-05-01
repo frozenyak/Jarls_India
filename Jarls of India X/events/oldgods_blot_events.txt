@@ -362,9 +362,9 @@ character_event = {
 				}
 				FROM = { character_event = { id = TOG.621 } }
 			}
-					if = {
-						limit = { # Buddhist
-						religion = buddhist
+			if = {
+				limit = { # Buddhist
+					religion = buddhist
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -375,10 +375,10 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67001 } }
-		}
-		if = {
-						limit = { # Jain
-						religion = jain
+			}
+			if = {
+				limit = { # Jain
+					religion = jain
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -389,10 +389,10 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67002 } }
-		}
-		if = {
-						limit = { # Hindu
-						religion = hindu
+			}
+			if = {
+				limit = { # Hindu
+					religion = hindu
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -403,7 +403,7 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67003 } }
-				}
+			}
 			FROM = { character_event = { id = TOG.645 } }
 		}
 	}
@@ -564,9 +564,9 @@ character_event = {
 				}
 				FROM = { character_event = { id = TOG.621 } }
 			}
-		if = {
-						limit = { # Buddhist
-						religion = buddhist
+			if = {
+				limit = { # Buddhist
+					religion = buddhist
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -577,10 +577,10 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67001 } }
-		}
-		if = {
-						limit = { # Jain
-						religion = jain
+			}
+			if = {
+				limit = { # Jain
+					religion = jain
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -591,10 +591,10 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67002 } }
-		}
-		if = {
-						limit = { # Hindu
-						religion = hindu
+			}
+			if = {
+				limit = { # Hindu
+					religion = hindu
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -766,9 +766,9 @@ character_event = {
 				}
 				FROM = { character_event = { id = TOG.621 } }
 			}
-					if = {
-						limit = { # Buddhist
-						religion = buddhist
+			if = {
+				limit = { # Buddhist
+					religion = buddhist
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -779,10 +779,10 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67001 } }
-		}
-		if = {
-						limit = { # Jain
-						religion = jain
+			}
+			if = {
+				limit = { # Jain
+					religion = jain
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -793,10 +793,10 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67002 } }
-		}
-		if = {
-						limit = { # Hindu
-						religion = hindu
+			}
+			if = {
+				limit = { # Hindu
+					religion = hindu
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -981,10 +981,10 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67001 } }
-		}
-		if = {
-						limit = { # Jain
-						religion = jain
+			}
+			if = {
+				limit = { # Jain
+					religion = jain
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -995,10 +995,10 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67002 } }
-		}
-		if = {
-						limit = { # Hindu
-						religion = hindu
+				}
+			if = {
+				limit = { # Hindu
+					religion = hindu
 					NOT = {
 						sibling = FROM
 						father = { character = FROM }
@@ -1009,7 +1009,7 @@ character_event = {
 					}
 				}
 				FROM = { character_event = { id = TOG.67003 } }
-				}
+			}
 			FROM = { character_event = { id = TOG.640 days = 5 } }
 		}
 	}

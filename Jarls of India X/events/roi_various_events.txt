@@ -1181,8 +1181,8 @@ character_event = {
 		NOT = { has_global_flag = cursed_diamond }
 		capital_scope = {
 			OR = {
-				empire = { title = e_india }
-				empire = { title = e_norse_india }
+				#empire = { title = e_india }
+				#empire = { title = e_norse_india }
 				empire = { title = e_rajastan }
 				empire = { title = e_bengal }
 				empire = { title = e_deccan }
@@ -1881,8 +1881,8 @@ character_event = {
 		NOT = { has_global_flag = thugs_global }
 		capital_scope = {
 			OR = {
-				empire = { title = e_india }
-				empire = { title = e_norse_india }
+				#empire = { title = e_india }
+				#empire = { title = e_norse_india }
 				empire = { title = e_rajastan }
 				empire = { title = e_bengal }
 				empire = { title = e_deccan }
@@ -1895,8 +1895,8 @@ character_event = {
 		random_demesne_province = {
 			limit = {
 				OR = {
-					empire = { title = e_india }
-					empire = { title = e_norse_india }
+					#empire = { title = e_india }
+					#empire = { title = e_norse_india }
 					empire = { title = e_rajastan }
 					empire = { title = e_bengal }
 					empire = { title = e_deccan }
@@ -2223,8 +2223,8 @@ character_event = {
 		has_dlc = "Rajas of India"
 		capital_scope = {
 			OR = {
-				empire = { title = e_india }
-				empire = { title = e_norse_india }
+				#empire = { title = e_india }
+				#empire = { title = e_norse_india }
 				empire = { title = e_rajastan }
 				empire = { title = e_bengal }
 				empire = { title = e_deccan }
@@ -2270,8 +2270,8 @@ character_event = {
 		NOT = { has_character_flag = crazed_elephant }
 		capital_scope = {
 			OR = {
-				empire = { title = e_india }
-				empire = { title = e_norse_india }
+				#empire = { title = e_india }
+				#empire = { title = e_norse_india }
 				empire = { title = e_rajastan }
 				empire = { title = e_bengal }
 				empire = { title = e_deccan }
@@ -2403,6 +2403,7 @@ character_event = {
 				empire = { title = e_rajastan }
 				empire = { title = e_bengal }
 				empire = { title = e_deccan }
+				#empire = { title = e_norse_india }
 			}
 		}
 	}
@@ -2456,6 +2457,7 @@ character_event = {
 				empire = { title = e_rajastan }
 				empire = { title = e_bengal }
 				empire = { title = e_deccan }
+				#empire = { title = e_norse_india }
 			}
 		}
 		OR = {
@@ -2473,6 +2475,7 @@ character_event = {
 							empire = { title = e_rajastan }
 							empire = { title = e_bengal }
 							empire = { title = e_deccan }
+							#empire = { title = e_norse_india }
 						}
 					}
 				}
@@ -2504,6 +2507,7 @@ character_event = {
 							empire = { title = e_rajastan }
 							empire = { title = e_bengal }
 							empire = { title = e_deccan }
+							#empire = { title = e_norse_india }
 						}
 					}
 				}
@@ -2958,6 +2962,7 @@ character_event = {
 			empire = { title = e_rajastan }
 			empire = { title = e_bengal }
 			empire = { title = e_deccan }
+			#empire = { title = e_norse_india }
 		}
 	}
 	
@@ -3294,8 +3299,8 @@ character_event = {
 		has_dlc = "Rajas of India"
 		capital_scope = {
 			OR = {
-				empire = { title = e_india }
-				empire = { title = e_norse_india }
+				#empire = { title = e_india }
+				#empire = { title = e_norse_india }
 				empire = { title = e_rajastan }
 				empire = { title = e_bengal }
 				empire = { title = e_deccan }
@@ -3449,6 +3454,7 @@ character_event = {
 				empire = { title = e_rajastan }
 				empire = { title = e_bengal }
 				empire = { title = e_deccan }
+				#empire = { title = e_norse_india }
 			}
 		}
 		OR = {

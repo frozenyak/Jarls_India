@@ -1,0 +1,330 @@
+namespace = jarls_religion
+
+#Convert to Hindu-Norse
+character_event = {
+	id = jarls_religion.1
+	title = EVTNAME_jarls_religion.1
+	desc = EVTDESC_jarls_religion.1
+	major = yes
+	
+	picture = "GFX_evt_viking_funeral_oldgods"
+	border = "GFX_event_normal_frame_war"
+	
+	only_playable = yes
+	only_rulers = yes
+	
+	#is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rajas of India"
+		#OR = {
+		#	culture = norse
+			culture = indo_norse
+		#}
+		primary_title = {
+			OR = {
+				title = k_sindh
+				title = k_punjab
+				title = k_delhi
+				title = k_gujarat
+				title = k_rajputana
+				title = k_malwa
+				title = k_kosala
+				title = k_gondwana
+				title = k_bengal
+				title = k_kamarupa
+				title = k_orissa
+				title = k_bihar
+				title = k_maharastra
+				title = k_karnata
+				title = k_tamilakam
+				title = k_andhra
+				title = k_telingana
+				title = k_lanka
+				title = e_rajastan
+				title = e_bengal
+				title = e_deccan
+				title = e_norse_india
+			}
+			holder_scope = {
+				OR = {
+					religion = norse_pagan
+					religion = norse_pagan_reformed
+				}
+				NOT = { trait = zealous }
+			}
+		}
+		NOT = { has_global_flag = hindu_norse_converts }
+		any_realm_province = {
+			religion_group = indian_group
+			NOT = { religion = hindu_norse }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 420
+		modifier = {
+			factor = 0.75
+			any_demesne_province = {
+				is_capital = yes
+				religion_group = indian_group
+				NOT = { religion = hindu_norse }
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_flag = hindu_norse_converts
+		set_character_flag = converts_hindu_norse
+	}
+
+	option = {
+		name = "EVTOPTA_jarls_religion.1"
+		trigger = {
+			# OR = {
+				# religion = norse_pagan
+				# religion = norse_pagan_reformed
+			# }
+			has_character_flag = converts_hindu_norse
+		}
+		religion = hindu_norse
+		capital_scope = {
+			religion = hindu_norse
+		}
+		if = {
+			limit = { is_title_active = d_lodbroks }
+			d_lodbroks = { # This Holy Order now changes religion
+				religion = hindu_norse
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = vaishya
+						trait = brahmin
+						trait = kshatriya
+					}
+				}
+			}
+			if = { 
+				limit = { is_feudal = yes } 
+				add_trait = kshatriya
+			}
+			if = { 
+				limit = { is_theocracy = yes } 
+				add_trait = brahmin
+			}
+			if = { 
+				limit = { is_republic = yes } 
+				add_trait = vaishya
+			}
+		}
+		
+		any_realm_character = {
+			limit = { 
+				OR = {
+					religion = norse_pagan
+					religion = norse_pagan_reformed
+				}
+			}
+			religion = hindu_norse
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							trait = vaishya
+							trait = brahmin
+							trait = kshatriya
+						}
+					}
+				}
+				if = { 
+					limit = { is_feudal = yes } 
+					add_trait = kshatriya
+				}
+				if = { 
+					limit = { is_theocracy = yes } 
+					add_trait = brahmin
+				}
+				if = { 
+					limit = { is_republic = yes } 
+					add_trait = vaishya
+				}
+			}
+			if = {
+				limit = {
+					is_playable = yes
+					capital_scope = {
+						OR = {
+							religion = norse_pagan
+							religion = norse_pagan_reformed
+						}
+					}
+				}
+				capital_scope = {
+					religion = hindu_norse
+				}
+			}
+		}
+	}
+	option = {
+		name = "EXCELLENT"
+		trigger = {
+			religion_group = indian_group
+			NOT = { religion = hindu_norse }
+			NOT = { has_character_flag = converts_hindu_norse }
+		}
+	}
+	option = {
+		name = "EVTOPTD60010"
+		trigger = {
+			NOT = { religion_group = indian_group }
+			NOT = { has_character_flag = converts_hindu_norse }
+		}
+	}
+}
+
+# The Lodbroks
+
+narrative_event = {
+	id = jarls_religion.3
+	title = EVTNAME_jarls_religion.3
+	desc = EVTDESC_jarls_religion.3
+	major = yes
+	picture = GFX_evt_vikings_arriving_oldgods
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_lodbroks status = yes }
+		create_character = {
+			random_traits = no
+			dynasty = random
+			religion = ROOT
+			culture = indo_norse
+			female = no
+			age = 30
+		}
+		new_character = {
+			wealth = 400
+			d_lodbroks = {
+				grant_title = PREV
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = indo_norse
+				female = no
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = indo_norse
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = indo_norse
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = indo_norse
+				female = no
+				age = 20
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = indo_norse
+				female = no
+				age = 25
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = indo_norse
+				female = no
+				age = 26
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = indo_norse
+				female = no
+				age = 28
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = indo_norse
+				female = yes
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = indo_norse
+				female = yes
+				age = 17
+			}
+		}
+		hidden_tooltip = {
+			d_lodbroks = {
+				holder_scope = {
+					character_event = {
+						id = jarls_religion.4
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_jarls_religion.3
+		trigger = {
+			religion = ROOT
+		}
+	}
+	option = {
+		name = EVTOPTB_jarls_religion.3
+		trigger = {
+			NOT = { religion = ROOT }
+		}
+	}
+}
+
+# Vassalize Lodbroks (Happens automatically)
+character_event = {
+	id = jarls_religion.4
+	desc = OK
+	picture = GFX_evt_crusaders
+	border = GFX_event_normal_frame_religion
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_defacto_liege = FROM
+	}
+	
+	option = {
+		name = OK
+	}
+}

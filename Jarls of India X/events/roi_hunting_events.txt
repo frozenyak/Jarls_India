@@ -736,10 +736,10 @@ character_event = {
 			trait = berserker
 		}
 		hidden_tooltip = {
-		random_list = {
-		90 = { character_event = { id = RoI.2126 } } # Kill tiger brutally
-		10 = { character_event = { id = RoI.2122 } } # Fails to kill tiger
-				}
+			random_list = {
+				90 = { character_event = { id = RoI.2126 } } # Kill tiger brutally
+				10 = { character_event = { id = RoI.2122 } } # Fails to kill tiger
+			}
 		}
 	}
 }

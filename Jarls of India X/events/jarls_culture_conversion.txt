@@ -1,0 +1,1134 @@
+namespace = jarls_conversion
+
+# The indo_norse Melting Pot
+character_event = {
+	id = jarls_conversion.2
+	desc = "EVTDESC_jarls_conversion.2"
+	picture = GFX_viking_throneroom_oldgods
+
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		year = 1000
+		culture = norse
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_sindh
+					title = k_punjab
+					title = k_delhi
+					title = k_gujarat
+					title = k_rajputana
+					title = k_malwa
+					title = k_kosala
+					title = k_gondwana
+					title = k_bengal
+					title = k_kamarupa
+					title = k_orissa
+					title = k_bihar
+					title = k_maharastra
+					title = k_karnata
+					title = k_tamilakam
+					title = k_andhra
+					title = k_telingana
+					title = k_lanka
+				}
+			}
+			OR = {
+				AND = {
+					culture_group = indo_aryan_group
+					NOT = { culture = indo_norse }
+				}
+				culture_group = dravidian_group
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTA_jarls_conversion.2"
+		tooltip_info = learning
+		trigger = {
+			OR = {
+				trait = detached_priest
+				trait = martial_cleric
+				trait = scholarly_theologian
+				trait = mastermind_theologian
+			}
+		}
+		culture = indo_norse
+		random_demesne_province = {
+			limit = {
+				OR = {
+					empire = { title = e_rajastan }
+					empire = { title = e_bengal }
+					empire = { title = e_deccan }
+					#empire = { title = e_norse_india }
+				}
+				OR = {
+					AND = {
+						culture_group = indo_aryan_group
+						NOT = { culture = indo_norse }
+					}
+					culture_group = dravidian_group
+				}
+			}
+			culture = indo_norse
+		}
+		# if = {
+			# limit = {
+				# NOT = {
+					# OR = {
+						# trait = vaishya
+						# trait = brahmin
+						# trait = kshatriya
+					# }
+				# }
+			# }
+			# if = { 
+				# limit = { is_feudal = yes } 
+				# add_trait = kshatriya
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = kshatriya
+				# }	
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = kshatriya
+				# }	
+			# }
+			# if = { 
+				# limit = { is_theocracy = yes } 
+				# add_trait = brahmin
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = brahmin
+				# }
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = brahmin
+				# }		
+			# }
+			# if = { 
+				# limit = { is_republic = yes } 
+				# add_trait = vaishya
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = vaishya
+				# }
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = vaishya
+				# }		
+			# }
+		# }
+	}
+	option = {
+		name = "EVTOPTB_jarls_conversion.2"
+		tooltip_info = diplomacy
+		trigger = {
+			OR = {
+				trait = naive_appeaser
+				trait = underhanded_rogue
+				trait = charismatic_negotiator
+				trait = grey_eminence
+			}
+		}
+		culture = indo_norse
+		random_demesne_province = {
+			limit = {
+				OR = {
+					empire = { title = e_rajastan }
+					empire = { title = e_bengal }
+					empire = { title = e_deccan }
+					#empire = { title = e_norse_india }
+				}
+				OR = {
+					AND = {
+						culture_group = indo_aryan_group
+						NOT = { culture = indo_norse }
+					}
+					culture_group = dravidian_group
+				}
+			}
+			culture = indo_norse
+		}
+		# if = {
+			# limit = {
+				# NOT = {
+					# OR = {
+						# trait = vaishya
+						# trait = brahmin
+						# trait = kshatriya
+					# }
+				# }
+			# }
+			# if = { 
+				# limit = { is_feudal = yes } 
+				# add_trait = kshatriya
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = kshatriya
+				# }	
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = kshatriya
+				# }	
+			# }
+			# if = { 
+				# limit = { is_theocracy = yes } 
+				# add_trait = brahmin
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = brahmin
+				# }
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = brahmin
+				# }		
+			# }
+			# if = { 
+				# limit = { is_republic = yes } 
+				# add_trait = vaishya
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = vaishya
+				# }
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = vaishya
+				# }		
+			# }
+		# }
+	}
+	option = {
+		name = "EVTOPTC_jarls_conversion.2"
+		tooltip_info = martial
+		trigger = {
+			OR = {
+				trait = misguided_warrior
+				trait = tough_soldier
+				trait = skilled_tactician
+				trait = brilliant_strategist
+			}
+		}
+		culture = indo_norse
+		random_demesne_province = {
+			limit = {
+				OR = {
+					empire = { title = e_rajastan }
+					empire = { title = e_bengal }
+					empire = { title = e_deccan }
+					#empire = { title = e_norse_india }
+				}
+				OR = {
+					AND = {
+						culture_group = indo_aryan_group
+						NOT = { culture = indo_norse }
+					}
+					culture_group = dravidian_group
+				}
+			}
+			culture = indo_norse
+		}
+		# if = {
+			# limit = {
+				# NOT = {
+					# OR = {
+						# trait = vaishya
+						# trait = brahmin
+						# trait = kshatriya
+					# }
+				# }
+			# }
+			# if = { 
+				# limit = { is_feudal = yes } 
+				# add_trait = kshatriya
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = kshatriya
+				# }	
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = kshatriya
+				# }	
+			# }
+			# if = { 
+				# limit = { is_theocracy = yes } 
+				# add_trait = brahmin
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = brahmin
+				# }
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = brahmin
+				# }		
+			# }
+			# if = { 
+				# limit = { is_republic = yes } 
+				# add_trait = vaishya
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = vaishya
+				# }
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = vaishya
+				# }		
+			# }
+		# }
+	}
+	option = {
+		name = "EVTOPTD_jarls_conversion.2"
+		tooltip_info = stewardship
+		trigger = {
+			OR = {
+				trait = indulgent_wastrel
+				trait = thrifty_clerk
+				trait = fortune_builder
+				trait = midas_touched
+			}
+		}
+		culture = indo_norse
+		random_demesne_province = {
+			limit = {
+				OR = {
+					empire = { title = e_rajastan }
+					empire = { title = e_bengal }
+					empire = { title = e_deccan }
+					#empire = { title = e_norse_india }
+				}
+				OR = {
+					AND = {
+						culture_group = indo_aryan_group
+						NOT = { culture = indo_norse }
+					}
+					culture_group = dravidian_group
+				}
+			}
+			culture = indo_norse
+		}
+		# if = {
+			# limit = {
+				# NOT = {
+					# OR = {
+						# trait = vaishya
+						# trait = brahmin
+						# trait = kshatriya
+					# }
+				# }
+			# }
+			# if = { 
+				# limit = { is_feudal = yes } 
+				# add_trait = kshatriya
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = kshatriya
+				# }	
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = kshatriya
+				# }	
+			# }
+			# if = { 
+				# limit = { is_theocracy = yes } 
+				# add_trait = brahmin
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = brahmin
+				# }
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = brahmin
+				# }		
+			# }
+			# if = { 
+				# limit = { is_republic = yes } 
+				# add_trait = vaishya
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = vaishya
+				# }
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = vaishya
+				# }		
+			# }
+		# }
+	}
+}
+
+# It's spreading
+character_event = {
+	id = jarls_conversion.3
+	desc = "EVTDESC_jarls_conversion.3"
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		year = 1000
+		culture = indo_norse
+		any_demesne_province = {
+			kingdom = {
+				OR = {
+					title = k_sindh
+					title = k_punjab
+					title = k_delhi
+					title = k_gujarat
+					title = k_rajputana
+					title = k_malwa
+					title = k_kosala
+					title = k_gondwana
+					title = k_bengal
+					title = k_kamarupa
+					title = k_orissa
+					title = k_bihar
+					title = k_maharastra
+					title = k_karnata
+					title = k_tamilakam
+					title = k_andhra
+					title = k_telingana
+					title = k_lanka
+				}
+			}
+			OR = {
+				AND = {
+					culture_group = indo_aryan_group
+					NOT = { culture = indo_norse }
+				}
+				culture_group = dravidian_group
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTA_jarls_conversion.3"
+		random_demesne_province = {
+			limit = {
+				OR = {
+					empire = { title = e_rajastan }
+					empire = { title = e_bengal }
+					empire = { title = e_deccan }
+					#empire = { title = e_norse_india }
+				}
+				OR = {
+					AND = {
+						culture_group = indo_aryan_group
+						NOT = { culture = indo_norse }
+					}
+					culture_group = dravidian_group
+				}
+			}
+			culture = indo_norse
+		}
+	}
+}
+
+#Make my court speak indo_norse
+character_event = {
+	id = jarls_conversion.4
+	desc = "EVTDESC_jarls_conversion.4"
+	picture = GFX_evt_throne_room
+
+	trigger = {
+		year = 1000
+		culture = indo_norse
+		independent = no
+		top_liege = {
+			primary_title = {
+				OR = {
+					title = k_sindh
+					title = k_punjab
+					title = k_delhi
+					title = k_gujarat
+					title = k_rajputana
+					title = k_malwa
+					title = k_kosala
+					title = k_gondwana
+					title = k_bengal
+					title = k_kamarupa
+					title = k_orissa
+					title = k_bihar
+					title = k_maharastra
+					title = k_karnata
+					title = k_tamilakam
+					title = k_andhra
+					title = k_telingana
+					title = k_lanka
+				}
+			}
+		}
+		any_courtier = {
+			OR = {
+				AND = {
+					culture_group = indo_aryan_group
+					NOT = { culture = indo_norse }
+				}
+				culture_group = dravidian_group
+				culture = norse
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "EVTOPTA_jarls_conversion.4"
+		random_courtier = {
+			limit = {
+				OR = {
+					AND = {
+						culture_group = indo_aryan_group
+						NOT = { culture = indo_norse }
+					}
+					culture_group = dravidian_group
+					culture = norse
+				}
+			}
+			culture = indo_norse
+			# if = {
+				# limit = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+				# }
+				# if = { 
+					# limit = { is_feudal = yes } 
+					# add_trait = kshatriya
+					# any_child = {
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = kshatriya
+					# }	
+					# any_spouse = {
+						# limit = { is_consort = no }
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = kshatriya
+					# }	
+				# }
+				# if = { 
+					# limit = { is_theocracy = yes } 
+					# add_trait = brahmin
+					# any_child = {
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = brahmin
+					# }
+					# any_spouse = {
+						# limit = { is_consort = no }
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = brahmin
+					# }		
+				# }
+				# if = { 
+					# limit = { is_republic = yes } 
+					# add_trait = vaishya
+					# any_child = {
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = vaishya
+					# }
+					# any_spouse = {
+						# limit = { is_consort = no }
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = vaishya
+					# }		
+				# }
+			}
+			hidden_tooltip = {
+				character_event = { id = jarls_conversion.6 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak indo_norse
+character_event = {
+	id = jarls_conversion.5
+	desc = "EVTDESC_jarls_conversion.5"
+	picture = GFX_evt_throne_room
+
+	trigger = {
+		year = 1000
+		culture = indo_norse
+		independent = no
+		top_liege = {
+			primary_title = {
+				OR = {
+					title = k_sindh
+					title = k_punjab
+					title = k_delhi
+					title = k_gujarat
+					title = k_rajputana
+					title = k_malwa
+					title = k_kosala
+					title = k_gondwana
+					title = k_bengal
+					title = k_kamarupa
+					title = k_orissa
+					title = k_bihar
+					title = k_maharastra
+					title = k_karnata
+					title = k_tamilakam
+					title = k_andhra
+					title = k_telingana
+					title = k_lanka
+				}
+			}
+		}
+		any_vassal = {
+			OR = {
+				AND = {
+					culture_group = indo_aryan_group
+					NOT = { culture = indo_norse }
+				}
+				culture_group = dravidian_group
+				culture = norse
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 720
+	}
+
+	option = {
+		name = "EVTOPTA_jarls_conversion.5"
+		random_vassal = {
+			limit = {
+				OR = {
+					AND = {
+						culture_group = indo_aryan_group
+						NOT = { culture = indo_norse }
+					}
+					culture_group = dravidian_group
+					culture = norse
+				}
+			}
+			culture = indo_norse
+			# if = {
+				# limit = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+				# }
+				# if = { 
+					# limit = { is_feudal = yes } 
+					# add_trait = kshatriya
+					# any_child = {
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = kshatriya
+					# }	
+					# any_spouse = {
+						# limit = { is_consort = no }
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = kshatriya
+					# }	
+				# }
+				# if = { 
+					# limit = { is_theocracy = yes } 
+					# add_trait = brahmin
+					# any_child = {
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = brahmin
+					# }
+					# any_spouse = {
+						# limit = { is_consort = no }
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = brahmin
+					# }		
+				# }
+				# if = { 
+					# limit = { is_republic = yes } 
+					# add_trait = vaishya
+					# any_child = {
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = vaishya
+					# }
+					# any_spouse = {
+						# limit = { is_consort = no }
+						# NOT = {
+							# OR = {
+								# trait = vaishya
+								# trait = brahmin
+								# trait = kshatriya
+							# }
+						# }
+						# add_trait = vaishya
+					# }		
+				# }
+			}
+			hidden_tooltip = {
+				character_event = { id = jarls_conversion.6 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = jarls_conversion.6
+	desc = "EVTDESC_jarls_conversion.6"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA_jarls_conversion.6"
+		culture = indo_norse
+		# if = {
+			# limit = {
+				# NOT = {
+					# OR = {
+						# trait = vaishya
+						# trait = brahmin
+						# trait = kshatriya
+					# }
+				# }
+			# }
+			# if = { 
+				# limit = { is_feudal = yes } 
+				# add_trait = kshatriya
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = kshatriya
+				# }	
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = kshatriya
+				# }	
+			# }
+			# if = { 
+				# limit = { is_theocracy = yes } 
+				# add_trait = brahmin
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = brahmin
+				# }
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = brahmin
+				# }		
+			# }
+			# if = { 
+				# limit = { is_republic = yes } 
+				# add_trait = vaishya
+				# any_child = {
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = vaishya
+				# }
+				# any_spouse = {
+					# limit = { is_consort = no }
+					# NOT = {
+						# OR = {
+							# trait = vaishya
+							# trait = brahmin
+							# trait = kshatriya
+						# }
+					# }
+					# add_trait = vaishya
+				# }		
+			# }
+		# }
+	}
+}
+
+# A ruler is assimilated by the local culture
+character_event = {
+	id = jarls_conversion.10
+	desc = "EVTDESC_jarls_conversion.10"
+	picture = GFX_evt_stone_church
+
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		NOT = { has_dlc = "Rajas of India" } # Controlled by Decision: convert_to_local_culture
+		primary_title = {
+			NOT = { conquest_culture = ROOT }
+			NOT = { culture = ROOT }
+			any_previous_holder = {
+				NOT = { character = ROOT } # The first holder of a title does not convert
+			}
+		}
+		capital_scope = {
+			NOT = { culture = ROOT }
+			OR = {
+				NOT = { culture_group = indo_aryan_group }
+				NOT = { culture_group = dravidian_group }
+				NOT = { ROOT = { culture = norse } }
+			}
+		}
+		top_liege = {
+			OR = {
+				character = ROOT
+				ROOT = {
+					capital_scope = {
+						culture = PREVPREV
+					}
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.5
+			top_liege = {
+				NOT = { character = ROOT }
+				ROOT = {
+					capital_scope = {
+						culture = PREVPREV
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			primary_title = {
+				ROOT = {
+					capital_scope = {
+						culture = PREVPREV
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			capital_scope = {
+				culture_group = ROOT # Same culture group: slower assimilation
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA_jarls_conversion.10"
+
+		# Piss off the appropriate vassals
+		any_vassal = {
+			limit = {
+				culture = ROOT
+				age = 16
+			}
+			opinion = {
+				who = ROOT
+				modifier = opinion_adopted_foreign_ways
+				years = 10
+			}
+			hidden_tooltip = { character_event = { id = 55011 days = 0 } }
+		}
+
+		capital_scope = {
+			reverse_culture = ROOT
+		}
+	}
+
+	option = {
+		name = "EVTOPTB_jarls_conversion.10"
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+

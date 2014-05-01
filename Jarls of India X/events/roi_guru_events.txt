@@ -423,7 +423,7 @@ character_event = {
 		trigger = { 
 			OR = { 
 				culture = norse
-				culture = Indo-Norse
+				culture = indo_norse
 				religion = norse_pagan
 				religion = norse_pagan_reformed
 			}
@@ -736,12 +736,12 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTD_RoI_3100
-		trigger = 
-		{ OR = 
-		{ culture = norse
-		culture = Indo-Norse
-		religion = norse_pagan
-		religion = norse_pagan_reformed
+		trigger = { 
+			OR = { 
+				culture = norse
+				culture = indo_norse
+				religion = norse_pagan
+				religion = norse_pagan_reformed
 			}
 		}
 		piety = -100
@@ -1001,14 +1001,12 @@ character_event = {
 			}
 		}
 	}
-			option = {
+	option = {
 		name = EVTOPTD_RoI_3100
-		trigger = 
-		{ 
-			OR = 
-			{ 
+		trigger = { 
+			OR = { 
 				culture = norse
-				culture = Indo-Norse
+				culture = indo_norse
 				religion = norse_pagan
 				religion = norse_pagan_reformed
 			}
